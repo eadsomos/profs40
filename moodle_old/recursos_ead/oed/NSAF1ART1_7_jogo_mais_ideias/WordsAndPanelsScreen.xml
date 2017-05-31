@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<wordsandpanels>
+  <game id="2">
+    <elements id="8" elementType="word">
+      <title text="" />
+      <word text="círculo" color="#000000" caps="0" difficulty="0" />
+      <icon text="jogo de arte - cida\tela8.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela8.jpg" />
+      <background text="jogo de arte - cida\jogo.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\jogo.jpg" />
+      <audio text="ÁUDIOS\formageometrica.mp3" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\formageometrica.mp3" />
+      <audiocorrect text="acerto\aplausos.mp3" path="C:\Documents and Settings\A35379\Desktop\acerto\aplausos.mp3" />
+      <audioerror text="erro\beh-beh.mp3" path="C:\Documents and Settings\A35379\Desktop\erro\beh-beh.mp3" />
+    </elements>
+    <elements id="1" elementType="word">
+      <title text="" />
+      <word text="rosas" color="#000000" caps="0" difficulty="0" />
+      <icon text="jogo de arte - cida\rosas.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\rosas.jpg" />
+      <background text="jogo de arte - cida\jogo.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\jogo.jpg" />
+      <audio text="ÁUDIOS\pintura.mp3" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\pintura.mp3" />
+      <audiocorrect text="acerto\aplausos.mp3" path="C:\Documents and Settings\A35379\Desktop\acerto\aplausos.mp3" />
+      <audioerror text="erro\beh-beh.mp3" path="C:\Documents and Settings\A35379\Desktop\erro\beh-beh.mp3" />
+    </elements>
+    <elements id="2" elementType="word">
+      <title text="" />
+      <word text="retas" color="#000000" caps="0" difficulty="0" />
+      <icon text="jogo de arte - cida\tela2.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela2.jpg" />
+      <background text="jogo de arte - cida\jogo.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\jogo.jpg" />
+      <audio text="ÁUDIOS\linhasretas ou curvas.mp3" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\linhasretas ou curvas.mp3" />
+      <audiocorrect text="acerto\aplausos.mp3" path="C:\Documents and Settings\A35379\Desktop\acerto\aplausos.mp3" />
+      <audioerror text="erro\beh-beh.mp3" path="C:\Documents and Settings\A35379\Desktop\erro\beh-beh.mp3" />
+    </elements>
+    <elements id="7" elementType="word">
+      <title text="" />
+      <word text="anjo" color="#000000" caps="0" difficulty="0" />
+      <icon text="jogo de arte - cida\tela7.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela7.jpg" />
+      <background text="jogo de arte - cida\jogo.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\jogo.jpg" />
+      <audio text="ÁUDIOS\anjo.mp3" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\anjo.mp3" />
+      <audiocorrect text="acerto\aplausos.mp3" path="C:\Documents and Settings\A35379\Desktop\acerto\aplausos.mp3" />
+      <audioerror text="erro\beh-beh.mp3" path="C:\Documents and Settings\A35379\Desktop\erro\beh-beh.mp3" />
+    </elements>
+    <elements id="3" elementType="word">
+      <title text="" />
+      <word text="retas" color="#000000" caps="0" difficulty="0" />
+      <icon text="jogo de arte - cida\tela3.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela3.jpg" />
+      <background text="jogo de arte - cida\jogo.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\jogo.jpg" />
+      <audio text="ÁUDIOS\pablo.mp3" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\pablo.mp3" />
+      <audiocorrect text="acerto\aplausos.mp3" path="C:\Documents and Settings\A35379\Desktop\acerto\aplausos.mp3" />
+      <audioerror text="erro\beh-beh.mp3" path="C:\Documents and Settings\A35379\Desktop\erro\beh-beh.mp3" />
+    </elements>
+    <elements id="4" elementType="word">
+      <title text="" />
+      <word text="círculo" color="#000000" caps="0" difficulty="0" />
+      <icon text="jogo de arte - cida\tela4.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela4.jpg" />
+      <background text="jogo de arte - cida\jogo.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\jogo.jpg" />
+      <audio text="ÁUDIOS\formas.mp3" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\formas.mp3" />
+      <audiocorrect text="acerto\aplausos.mp3" path="C:\Documents and Settings\A35379\Desktop\acerto\aplausos.mp3" />
+      <audioerror text="erro\beh-beh.mp3" path="C:\Documents and Settings\A35379\Desktop\erro\beh-beh.mp3" />
+    </elements>
+    <elements id="5" elementType="word">
+      <title text="" />
+      <word text="curvas" color="#000000" caps="0" difficulty="0" />
+      <icon text="jogo de arte - cida\tela5.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela5.jpg" />
+      <background text="jogo de arte - cida\jogo.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\jogo.jpg" />
+      <audio text="ÁUDIOS\romero.mp3" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\romero.mp3" />
+      <audiocorrect text="acerto\aplausos.mp3" path="C:\Documents and Settings\A35379\Desktop\acerto\aplausos.mp3" />
+      <audioerror text="erro\beh-beh.mp3" path="C:\Documents and Settings\A35379\Desktop\erro\beh-beh.mp3" />
+    </elements>
+    <elements id="6" elementType="word">
+      <title text="" />
+      <word text="retas" color="#000000" caps="0" difficulty="0" />
+      <icon text="jogo de arte - cida\tela6.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela6.jpg" />
+      <background text="jogo de arte - cida\jogo.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\jogo.jpg" />
+      <audio text="ÁUDIOS\miro.mp3" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\miro.mp3" />
+      <audiocorrect text="acerto\aplausos.mp3" path="C:\Documents and Settings\A35379\Desktop\acerto\aplausos.mp3" />
+      <audioerror text="erro\beh-beh.mp3" path="C:\Documents and Settings\A35379\Desktop\erro\beh-beh.mp3" />
+    </elements>
+  </game>
+</wordsandpanels>

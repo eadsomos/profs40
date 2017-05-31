@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root> 
+	<text name="content">Cerca de 5.000 pássaros mortos assustaram os moradores da cidade de Beebe, no Arkansas, no primeiro dia do ano. As aves caíram sobre estradas, telhados e quintais de várias casas.</text> 
+	<references> 
+		<re r="Quem?" i="0" s="30" /> 
+		<re r="O quê?" i="31" s="43" /> 
+		<re r="Onde?" i="75" s="12" /> 
+		<re r="Quando?" i="88" s="23" /> 
+		<re r="Por quê?" i="112" s="67" /> 
+	</references> 
+	<text name="feedback" value="images/default_feedback.jpg" /> 
+	<text name="title">Identifique os trechos que formam o lide.</text> 
+</root>

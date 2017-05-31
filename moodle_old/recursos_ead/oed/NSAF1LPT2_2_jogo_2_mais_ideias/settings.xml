@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<local>
+
+	<serverURL>assets/</serverURL>
+
+	<imagesURL>assets/images/</imagesURL>
+
+	<envioJsonURL>questions/earn_points</envioJsonURL>
+
+	<direcionaURL>earn_points/result</direcionaURL>
+
+	<completURL></completURL>
+	
+	<settings>frog_config</settings>
+</local>

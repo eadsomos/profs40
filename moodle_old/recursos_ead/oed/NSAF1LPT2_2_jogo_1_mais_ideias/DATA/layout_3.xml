@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<text name="type">2</text> 
+	<text name="color">#C3C3C3</text> 
+	<text name="game">Explorando a notícia</text> 
+	<text name="logo">images/default_logo.png</text> 
+	<text name="image">images/</text> 
+	<text name="content"><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1">As atividades a seguir foram feitas a partir de trechos da notícia &quot;Milhares de pássaros mortos caem do céu no primeiro dia do ano&quot;, publicada no <I>site</I> do jornal <I>Folha de S.Paulo</I>, em 3/1/2011. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="16" COLOR="#666666" LETTERSPACING="0" KERNING="1"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1">Após realizá-las, você estará mais preparado para produzir uma notícia, a partir das orientações de seu professor, e conhecerá uma fato curioso. </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1">Bom trabalho! </FONT></P></TEXTFORMAT></text> 
+	<text name="hsv">5</text> 
+</root>

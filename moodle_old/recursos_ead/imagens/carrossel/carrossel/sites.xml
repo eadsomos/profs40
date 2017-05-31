@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<sites>
+	<site>
+		<nome>Site do fulano</nome>
+		<url>http://sitedofulano.com.br</url>
+	</site>
+	<site>
+		<nome>Site do ciclano</nome>
+		<url>http://sitedociclano.com.br</url>
+	</site>
+</sites>

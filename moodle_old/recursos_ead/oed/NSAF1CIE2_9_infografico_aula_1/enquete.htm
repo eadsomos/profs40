@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>A fabrica&ccedil;&atilde;o do papel - enquete</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script language="JavaScript">
+<!--
+function fecha(){
+self.close();}
+
+function Votar(){
+	if ( document.frm.rbtVoto[0].checked == false
+	  && document.frm.rbtVoto[1].checked == false
+	  && document.frm.rbtVoto[2].checked == false
+	  && document.frm.rbtVoto[3].checked == false
+	  && document.frm.rbtVoto[4].checked == false ){
+	  alert("Selecione uma Nota");
+	}
+	else { document.frm.submit() }
+}
+
+//-->
+</script>
+<style type="text/css">
+<!--
+.titulo {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #FFFFFF}
+.dados {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #006699}
+.descricao {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-style: italic; color: #006699}
+-->
+</style>
+</head>
+
+<body bgcolor="#7CBDC3" background="img/fio_fundo.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<form method="POST" name="frm" action="../../ContDig/engine/add_voto.asp">
+<input type="hidden" name="NomeGaleria" value="14_ppl">
+  <table width="545" border="0" cellspacing="0" cellpadding="0" height="345">
+    <tr align="center"> 
+      <td>
+        <table width="450" border="0" cellspacing="5" cellpadding="0">
+          <tr>
+            <td colspan="2" align="center" height="28"><img src="img/enquete.gif" width="132" height="30"></td>
+          </tr>
+          <tr> 
+            <td colspan="2" align="center" height="28"> 
+              <p><span class="legendatit"><span class="creditost"><span class="dados">O 
+                que voc&ecirc; achou desta galeria?</span></span></span><span class="legenda"></span></p>
+            </td>
+          </tr>
+          <tr> 
+            <td class="legenda" width="45%" align="right" height="22"> 
+              <input type="radio" name="rbtVoto" value="5">
+              &nbsp;&nbsp;</td>
+            <td class="legenda" width="55%" height="22"><span class="titulo">Excelente</span></td>
+          </tr>
+          <tr> 
+            <td class="legenda" align="right"> 
+              <input type="radio" name="rbtVoto" value="4">
+              &nbsp;&nbsp;</td>
+            <td class="legenda"><span class="titulo">Boa</span></td>
+          </tr>
+          <tr> 
+            <td class="legenda" align="right" valign="top"> 
+              <input type="radio" name="rbtVoto" value="3">
+              &nbsp;&nbsp;</td>
+            <td class="legenda"><span class="titulo">Regular</span></td>
+          </tr>
+          <tr> 
+            <td class="legenda" align="right" valign="top"> 
+              <input type="radio" name="rbtVoto" value="2">
+              &nbsp;&nbsp;</td>
+            <td class="legenda"><span class="titulo">Ruim</span></td>
+          </tr>
+          <tr> 
+            <td class="legenda" align="right" valign="top"> 
+              <input type="radio" name="rbtVoto" value="1">
+              &nbsp;&nbsp;</td>
+            <td class="legenda"><span class="titulo">P&eacute;ssima</span></td>
+          </tr>
+          <tr> 
+            <td align="center" colspan="2" height="40"> <a href="javascript:Votar()"><img src="img/votar.gif" width="54" height="18" border="0"></a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  </form>
+</body>
+</html>

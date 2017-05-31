@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>A fabrica&ccedil;&atilde;o do papel - indique esta p&aacute;gina</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script language="JavaScript">
+<!--
+function fecha(){
+self.close();}
+
+window.defaultStatus = "";
+function janela(param,w,h,nome) {
+   var nomearq = param;
+   var windowvar = window.open(nomearq,nome,"scrollbars=no,location=no,directories=no,status=no,menubar=no,resizable=no,toolbar=no,top=50,left=50,width="+ w + ",height=" +h );
+}
+
+function isEmail_bad(elm) {
+if (elm.value.indexOf("@") != "-1" &&
+	elm.value.indexOf(".") != "-1" &&
+	elm.value.indexOf("@.") == "-1" &&
+	elm.value.indexOf(".br.") == "-1" &&
+	elm.value.indexOf("\"") == "-1" &&
+	elm.value.indexOf(" ") == "-1" &&
+	elm.value.indexOf("'") == "-1" &&
+	elm.value.indexOf(";") == "-1" &&
+	elm.value.indexOf(",") == "-1" &&
+	elm.value.indexOf("{") == "-1" &&
+	elm.value.indexOf("}") == "-1" &&
+	elm.value.indexOf("[") == "-1" &&
+	elm.value.indexOf("]") == "-1" &&
+	elm.value.indexOf("<") == "-1" &&
+	elm.value.indexOf(">") == "-1" &&
+	elm.value.indexOf("?") == "-1" &&
+	elm.value.indexOf("|") == "-1" &&
+	elm.value.length > 5 )
+	return false;
+else
+	return true;
+}
+
+function ValidaForm(form) {
+	if (form.txtNomeFrom.value.length == 0) {
+		alert("Digite o seu Nome Completo.");
+		form.txtNomeFrom.focus();
+		return false;
+	}
+	if ( form.txtMailFrom.value.length == 0 ) {
+		alert("Digite o E-mail do Remetente");
+		form.txtMailFrom.focus();
+		return false;
+	}
+	if ( isEmail_bad(form.txtMailFrom) ) {
+		alert("E-mail do Remetente incorreto");
+		form.txtMailFrom.select();
+		return false;
+	}
+	if (form.txtNomeTo.value.length == 0) {
+		alert("Digite o Nome do Destinatário");
+		form.txtNomeTo.focus();
+		return false;
+	}
+	if ( form.txtMailTo.value.length == 0 ) {
+		alert("Digite o E-mail do Destinatário");
+		form.txtMailTo.focus();
+		return false;
+	}
+	if ( isEmail_bad(form.txtMailTo) ) {
+		alert("E-mail do Destinatário incorreto");
+		form.txtMailTo.select();
+		return false;
+	}
+	if (form.txaComentario.value.length == 0) {
+		alert("Digite o Comentário.");
+		form.txaComentario.focus();
+		return false;
+	}
+return true;
+}
+
+function Indicar(){
+	if (ValidaForm(document.frm) == true)
+		document.frm.submit();
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.titulo {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #FFFFFF}
+.dados {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color: #006699}
+.descricao {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-style: italic; color: #006699}
+-->
+</style>
+</head>
+
+<body bgcolor="#7CBDC3" background="img/fio_fundo.gif" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<form name="frm" method="POST" action="../../ContDig/engine/indique.asp">
+<input type="hidden" name="NomeGaleria" value="14_ppl">
+<input type="hidden" name="hidURL" value="http://www.scipione.com.br/educa/galeria/index.htm">
+<table width="545" border="0" cellspacing="40" cellpadding="0" height="345">
+  <tr align="center" valign="top"> 
+    <td> 
+      <table width="100%" border="0" cellspacing="10" cellpadding="0">
+        <tr align="center"> 
+          <td colspan="2" class="titulo"><img src="img/indique.gif" width="316" height="31"></td>
+        </tr>
+        <tr> 
+          <td align="right" width="35%" class="dados"> <span class="creditosttxt">Seu 
+            Nome:</span></td>
+          <td width="65%"><b> 
+              <input type="text" name="txtNomeFrom" style="BORDER-BOTTOM: #006699 1px solid; BORDER-LEFT: #006699 1px solid; BORDER-RIGHT: #006699 1px solid; BORDER-TOP: #006699 1px solid; COLOR: #006699; FONT-FAMILY: Verdana, Arial, Helvetica; FONT-SIZE: 10px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 200px">
+            </b></td>
+        </tr>
+        <tr> 
+          <td align="right" class="dados"> <span class="creditosttxt">Seu e-mail:</span></td>
+          <td><b> 
+              <input type="text" name="txtMailFrom" style="BORDER-BOTTOM: #006699 1px solid; BORDER-LEFT: #006699 1px solid; BORDER-RIGHT: #006699 1px solid; BORDER-TOP: #006699 1px solid; COLOR: #006699; FONT-FAMILY: Verdana, Arial, Helvetica; FONT-SIZE: 10px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 200px">
+            </b></td>
+        </tr>
+        <tr> 
+          <td align="right" class="dados"> <span class="creditosttxt">Nome:</span></td>
+          <td><b> 
+              <input type="text" name="txtNomeTo" style="BORDER-BOTTOM: #006699 1px solid; BORDER-LEFT: #006699 1px solid; BORDER-RIGHT: #006699 1px solid; BORDER-TOP: #006699 1px solid; COLOR: #006699; FONT-FAMILY: Verdana, Arial, Helvetica; FONT-SIZE: 10px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 200px">
+            </b></td>
+        </tr>
+        <tr> 
+          <td align="right" class="dados"> <span class="creditosttxt">E-mail:</span></td>
+          <td><b> 
+              <input type="text" name="txtMailTo" style="BORDER-BOTTOM: #006699 1px solid; BORDER-LEFT: #006699 1px solid; BORDER-RIGHT: #006699 1px solid; BORDER-TOP: #006699 1px solid; COLOR: #006699; FONT-FAMILY: Verdana, Arial, Helvetica; FONT-SIZE: 10px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 200px">
+            </b></td>
+        </tr>
+        <tr> 
+          <td align="right" valign="top" class="dados"> <span class="creditosttxt">Coment&aacute;rios:</span></td>
+          <td><b> 
+              <textarea name="txaComentario" style="BORDER-BOTTOM: #006699 1px solid; BORDER-LEFT: #006699 1px solid; BORDER-RIGHT: #006699 1px solid; BORDER-TOP: #006699 1px solid; COLOR: #006699; FONT-FAMILY: Verdana, Arial, Helvetica; FONT-SIZE: 10px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; PADDING-TOP: 1px; WIDTH: 200px" rows="3"></textarea>
+            </b></td>
+        </tr>
+        <tr> 
+          <td align="center" colspan="2" height="30"> 
+            <table width="130" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                  <td><a href="javascript:Indicar()"><img src="img/enviar.gif" width="54" height="18" border="0"></a></td>
+                  <td align="right"><a href="javascript:document.frm.reset()"><img src="img/limpar.gif" width="54" height="18" border="0"></a></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

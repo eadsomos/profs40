@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Midias>
+  <game id="1">
+    <midia id="1" type="background" path="C:\Documents and Settings\A35379\Desktop\ditadovirtual\DitadoVirtual\Images\backDefaultSplash.jpg" thumb="imagemIcon.gif" />
+    <midia id="2" type="background" path="C:\Documents and Settings\A35379\Desktop\ditadovirtual\DitadoVirtual\Images\backDefaultResult.jpg" thumb="imagemIcon.gif" />
+    <midia id="3" type="background" path="C:\Documents and Settings\A35379\Desktop\ditadovirtual\DitadoVirtual\Images\backDefaultWord.jpg" thumb="imagemIcon.gif" />
+    <midia id="4" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\01_aranha.mp3" thumb="audioIcon.gif" />
+    <midia id="5" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\02_blusa.mp3" thumb="audioIcon.gif" />
+    <midia id="6" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\03_bicicleta.mp3" thumb="audioIcon.gif" />
+    <midia id="7" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\04_cachorro.mp3" thumb="audioIcon.gif" />
+    <midia id="8" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\05_burro.mp3" thumb="audioIcon.gif" />
+    <midia id="9" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\06_caixa.mp3" thumb="audioIcon.gif" />
+    <midia id="10" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\07_chafariz.mp3" thumb="audioIcon.gif" />
+    <midia id="11" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\08_chuva.mp3" thumb="audioIcon.gif" />
+    <midia id="12" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\09_placa.mp3" thumb="audioIcon.gif" />
+    <midia id="13" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\10_flor.mp3" thumb="audioIcon.gif" />
+    <midia id="14" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\11_vassoura.mp3" thumb="audioIcon.gif" />
+    <midia id="15" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\12_geladeira.mp3" thumb="audioIcon.gif" />
+    <midia id="16" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\13_guitarra.mp3" thumb="audioIcon.gif" />
+    <midia id="17" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\14_lampada.mp3" thumb="audioIcon.gif" />
+    <midia id="18" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\15_magico.mp3" thumb="audioIcon.gif" />
+    <midia id="19" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\16_menina.mp3" thumb="audioIcon.gif" />
+    <midia id="20" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\17_mochila.mp3" thumb="audioIcon.gif" />
+    <midia id="21" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\18_passaro.mp3" thumb="audioIcon.gif" />
+    <midia id="22" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\19_pomba.mp3" thumb="audioIcon.gif" />
+    <midia id="23" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\20_relogio.mp3" thumb="audioIcon.gif" />
+    <midia id="24" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" thumb="audioIcon.gif" />
+    <midia id="25" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" thumb="audioIcon.gif" />
+    <midia id="26" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\parabens.mp3" thumb="audioIcon.gif" />
+    <midia id="27" type="audio" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" thumb="audioIcon.gif" />
+    <midia id="28" type="background" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" thumb="imagemIcon.gif" />
+    <midia id="29" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\aranha.jpg" thumb="imagemIcon.gif" />
+    <midia id="30" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\bicicleta.jpg" thumb="imagemIcon.gif" />
+    <midia id="31" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\blusa.jpg" thumb="imagemIcon.gif" />
+    <midia id="32" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\burro.jpg" thumb="imagemIcon.gif" />
+    <midia id="33" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\cachorro.jpg" thumb="imagemIcon.gif" />
+    <midia id="34" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\caixa.jpg" thumb="imagemIcon.gif" />
+    <midia id="35" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\chafariz.jpg" thumb="imagemIcon.gif" />
+    <midia id="36" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\chuva.jpg" thumb="imagemIcon.gif" />
+    <midia id="37" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\flor.jpg" thumb="imagemIcon.gif" />
+    <midia id="38" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\geladeira.jpg" thumb="imagemIcon.gif" />
+    <midia id="39" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\guitarra.jpg" thumb="imagemIcon.gif" />
+    <midia id="40" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\lampada.jpg" thumb="imagemIcon.gif" />
+    <midia id="41" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\magica.jpg" thumb="imagemIcon.gif" />
+    <midia id="42" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\menina.jpg" thumb="imagemIcon.gif" />
+    <midia id="43" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\mochila.jpg" thumb="imagemIcon.gif" />
+    <midia id="44" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\passaro.jpg" thumb="imagemIcon.gif" />
+    <midia id="45" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\placa.jpg" thumb="imagemIcon.gif" />
+    <midia id="46" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\pomba.jpg" thumb="imagemIcon.gif" />
+    <midia id="47" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\relogio.jpg" thumb="imagemIcon.gif" />
+    <midia id="48" type="imagem" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\vassoura.jpg" thumb="imagemIcon.gif" />
+  </game>
+</Midias>

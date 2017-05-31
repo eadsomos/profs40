@@ -1,0 +1,29 @@
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
+
+.access img{
+    width: 15em;
+    height:3.1em;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.seal {
+    float: left;
+    padding-top: 20px;
+}
+
+.seal div {
+    display: inline-block;
+}
+
+#full_name {
+    line-height: 20px;
+
+}
+
+#actual_topic {
+    line-height: 14px;
+
+}
+.nav {}

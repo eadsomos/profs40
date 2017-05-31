@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<text name="pergunta"><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1">Em notícias, informações dadas por pessoas ou órgãos relacionadas com o fato apresentado dão maior credibilidade ao texto. Veja como esse recurso foi usado no texto e selecione a alternativa incorreta: </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"><I></I></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"><I>As próximas análises se concentrarão em indícios químicos. Órgãos de proteção de animais acreditam que as mortes dos pássaros podem ter sido provocadas por fogos de artifício usados nas comemorações da virada do ano. </I></FONT></P></TEXTFORMAT></text> 
+	<text name="alternativaI">Segundo declarações, os fogos de artifício foram a provável causa da morte das aves.</text> 
+	<text name="alternativaII">Durante os festejos de final de ano, os fogos de artifício atingiram e mataram os pássaros.</text> 
+	<text name="alternativaIII">A expressão "podem ter sido" foi empregada para revelar incerteza.</text> 
+	<text name="alternativaIV">O uso do verbo "acreditam" indica que não há certeza absoluta e poderia ser substituído por "acham".</text> 
+	<text name="resposta">2</text> 
+	<text name="feedback" value="images/default_feedback.jpg" /> 
+</root>

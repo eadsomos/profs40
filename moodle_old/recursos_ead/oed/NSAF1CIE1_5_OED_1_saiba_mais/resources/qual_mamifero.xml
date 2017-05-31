@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game title="qual_mamifero" path="data" bg="bg_marcha_ok.jpg" lang="pt">
+  <instruction bg="bg_marcha_ok.jpg" title="Qual é o mamífero?" picture="logo_fake.png" picture2="logo_fake.png"><![CDATA[<p>   Todos os animais são classificados conforme suas características. Você sabe quais características têm os mamíferos?<p>   Os mamíferos são animais que nascem da barriga da mãe e que mamam quando pequenos. Muitos deles têm pelos.<p>   Agora que você já sabe tudo isso, tente descobrir qual é o mamífero escondido sob as peças.<p>   Para fazer isso, basta clicar sobre uma peça colorida e observar a parte da silhueta do animal. Depois, clique no animal que corresponde à silhueta que você viu.<p>  Se você acertar, marcará pontos e irá para a próxima tela. Se errar, poderá ir retirando outras peças até revelar a imagem por completo.<p>  Sempre que você retirar uma peça terá uma nova chance para identificar o mamífero, até que seus pontos acabem.<p>  Você sempre ganhará 4 pontos ao iniciar uma nova fase, e para cada peça colorida que você retirar será subtraído 1 ponto. Por isso, quanto menos peças você tirar, mais pontos acumulará durante o jogo.]]></instruction>
+  <cenario titulo="mamiferos1" id="1">
+    <elemento nome="elefante" audio="" silhueta="JOG05_i01b_MCCmS.png" imagem="JOG05_i01a_MCCmS.png" x="112.7" y="111.7"/>
+    <elemento nome="coelho" audio="" silhueta="JOG05_i03b_MCCmS.png" imagem="JOG05_i03a_MCCmS.png" x="190.7" y="210.7"/>
+    <elemento nome="cachorro" audio="" silhueta="JOG05_i02b_MCCmS.png" imagem="JOG05_i02a_MCCmS.png" x="111.7" y="345.7"/>
+    <elemento nome="gato" audio="" silhueta="JOG05_i04b_MCCmS.png" imagem="JOG05_i04a_MCCmS.png" x="215.7" y="449.7"/>
+  </cenario>
+  <cenario titulo="mamiferos2" id="2">
+    <elemento nome="vaca" audio="" silhueta="JOG05_i05b_MCCmS.png" imagem="JOG05_i05a_MCCmS.png" x="198.7" y="115.7"/>
+    <elemento nome="capivara" audio="" silhueta="JOG05_i06b_MCCmS.png" imagem="JOG05_i06a_MCCmS.png" x="131.65" y="254.7"/>
+    <elemento nome="foca" audio="" silhueta="JOG05_i07b_MCCmS.png" imagem="JOG05_i07a_MCCmS.png" x="203.7" y="344.7"/>
+    <elemento nome="hipopótamo" audio="" silhueta="JOG05_i08b_MCCmS.png" imagem="JOG05_i08a_MCCmS.png" x="132.65" y="467.7"/>
+  </cenario>
+  <cenario titulo="mamiferos3" id="3">
+    <elemento nome="leão" audio="" silhueta="JOG05_i09b_MCCmS.png" imagem="JOG05_i09a_MCCmS.png" x="108.7" y="368.7"/>
+    <elemento nome="golfinho" audio="" silhueta="JOG05_i10b_MCCmS.png" imagem="JOG05_i10a_MCCmS.png" x="215.7" y="493.7"/>
+    <elemento nome="ovelha" audio="" silhueta="JOG05_i11b_MCCmS.png" imagem="JOG05_i11a_MCCmS.png" x="217.7" y="244.7"/>
+    <elemento nome="rato" audio="" silhueta="JOG05_i12b_MCCmS.png" imagem="JOG05_i12a_MCCmS.png" x="113.7" y="135.65"/>
+  </cenario>
+  <cenario titulo="mamiferos5" id="4">
+    <elemento nome="macaco" audio="" silhueta="JOG05_i13b_MCCmS.png" imagem="JOG05_i13a_MCCmS.png" x="103.7" y="130.65"/>
+    <elemento nome="zebra" audio="" silhueta="JOG05_i14b_MCCmS.png" imagem="JOG05_i14a_MCCmS.png" x="148.65" y="323.7"/>
+    <elemento nome="touro" audio="" silhueta="JOG05_i15b_MCCmS.png" imagem="JOG05_i15a_MCCmS.png" x="199.7" y="213.7"/>
+    <elemento nome="baleia" audio="" silhueta="JOG05_i17b_MCCmS.png" imagem="JOG05_i17a_MCCmS.png" x="152.65" y="456.7"/>
+  </cenario>
+</game>

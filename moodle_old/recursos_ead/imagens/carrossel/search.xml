@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
+
+  <id>tag:search.twitter.com,2005:search/gserrano</id>
+
+  <link type="text/html" rel="alternate" href="http://search.twitter.com/search?q=gserrano"/>
+
+  <link type="application/atom+xml" rel="self" href="http://search.twitter.com/search.atom?q=gserrano"/>
+
+  <title>gserrano - Twitter Search</title>
+
+  <link type="application/opensearchdescription+xml" rel="search" href="http://search.twitter.com/opensearch.xml"/>
+
+  <link type="application/atom+xml" rel="refresh" href="http://search.twitter.com/search.atom?q=gserrano&amp;since_id=1011974184"/>
+
+  <updated>2008-11-18T23:30:00Z</updated>
+
+  <openSearch:itemsPerPage>15</openSearch:itemsPerPage>
+
+  <link type="application/atom+xml" rel="next" href="http://search.twitter.com/search.atom?max_id=1011974184&amp;page=2&amp;q=gserrano"/>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011974184</id>
+
+    <published>2008-11-18T23:30:00Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011974184"/>
+
+    <title>@chrisloki parab&#233;ns pra ti, #odesenvolvedor com um crescimento de 50% na visita&#231;&#227;o no &#250;tlimo m&#234;s! :D</title>
+
+    <content type="html">&lt;a href="http://twitter.com/chrisloki"&gt;@chrisloki&lt;/a&gt; parab&#233;ns pra ti, &lt;a href="/search?q=%23odesenvolvedor"&gt;#odesenvolvedor&lt;/a&gt; com um crescimento de 50% na visita&#231;&#227;o no &#250;tlimo m&#234;s! :D</content>
+
+    <updated>2008-11-18T23:30:00Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1011974184.atom"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011941353</id>
+
+    <published>2008-11-18T23:06:02Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/chrisloki/statuses/1011941353"/>
+
+    <title>@gserrano parab&#233;ns o/ uhu!</title>
+
+    <content type="html">&lt;a href="http://twitter.com/gserrano"&gt;@&lt;b&gt;gserrano&lt;/b&gt;&lt;/a&gt; parab&#233;ns o/ uhu!</content>
+
+    <updated>2008-11-18T23:06:02Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/61066338/ble_normal.jpg"/>
+
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1011941353.atom"/>
+
+    <author>
+
+      <name>chrisloki (Chris Benseler)</name>
+
+      <uri>http://twitter.com/chrisloki</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011934314</id>
+
+    <published>2008-11-18T23:01:16Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011934314"/>
+
+    <title>a natureza &#233; fascinante, animais disfar&#231;ados de folha. ah, sapecas! http://tinyurl.com/5q8c88</title>
+
+    <content type="html">a natureza &#233; fascinante, animais disfar&#231;ados de folha. ah, sapecas! &lt;a href="http://tinyurl.com/5q8c88"&gt;http://tinyurl.com/5q8c88&lt;/a&gt;</content>
+
+    <updated>2008-11-18T23:01:16Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011925155</id>
+
+    <published>2008-11-18T22:54:46Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011925155"/>
+
+    <title>um culto ao ego, #andafter teve um crescimento de 15% nas visitas no &#250;ltimo m&#234;s. (olhando as novidades do google analyctics).</title>
+
+    <content type="html">um culto ao ego, &lt;a href="/search?q=%23andafter"&gt;#andafter&lt;/a&gt; teve um crescimento de 15% nas visitas no &#250;ltimo m&#234;s. (olhando as novidades do google analyctics).</content>
+
+    <updated>2008-11-18T22:54:46Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011912798</id>
+
+    <published>2008-11-18T22:46:14Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/bpinaud/statuses/1011912798"/>
+
+    <title>@gserrano Voc&#234; foi um dos pioneiros a falar das buscas no iSofa.tv. Por isso te adicionei. Obrigado. Abra&#231;os.</title>
+
+    <content type="html">&lt;a href="http://twitter.com/gserrano"&gt;@&lt;b&gt;gserrano&lt;/b&gt;&lt;/a&gt; Voc&#234; foi um dos pioneiros a falar das buscas no iSofa.tv. Por isso te adicionei. Obrigado. Abra&#231;os.</content>
+
+    <updated>2008-11-18T22:46:14Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/52836833/BPeoLeao_normal.JPG"/>
+
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1011912798.atom"/>
+
+    <author>
+
+      <name>bpinaud (Bruno Pinaud)</name>
+
+      <uri>http://twitter.com/bpinaud</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011871230</id>
+
+    <published>2008-11-18T22:17:19Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/bpinaud/statuses/1011871230"/>
+
+    <title>@gserrano Obrigado, cara, muito legal saber que voc&#234; est&#225; curtindo. Tem mais de 300 canais aguardando pra entrar no menu novo. Avise qqc.</title>
+
+    <content type="html">&lt;a href="http://twitter.com/gserrano"&gt;@&lt;b&gt;gserrano&lt;/b&gt;&lt;/a&gt; Obrigado, cara, muito legal saber que voc&#234; est&#225; curtindo. Tem mais de 300 canais aguardando pra entrar no menu novo. Avise qqc.</content>
+
+    <updated>2008-11-18T22:17:19Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/52836833/BPeoLeao_normal.JPG"/>
+
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1011871230.atom"/>
+
+    <author>
+
+      <name>bpinaud (Bruno Pinaud)</name>
+
+      <uri>http://twitter.com/bpinaud</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011868941</id>
+
+    <published>2008-11-18T22:15:50Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/oPadreVoador/statuses/1011868941"/>
+
+    <title>@gserrano hahaha, tomara o/ que melhore ai e que eu descanse aqui ;D</title>
+
+    <content type="html">&lt;a href="http://twitter.com/gserrano"&gt;@&lt;b&gt;gserrano&lt;/b&gt;&lt;/a&gt; hahaha, tomara o/ que melhore ai e que eu descanse aqui ;D</content>
+
+    <updated>2008-11-18T22:15:50Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/60831933/opvlogovp0_normal.png"/>
+
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1011868941.atom"/>
+
+    <author>
+
+      <name>oPadreVoador (oPadreVoador)</name>
+
+      <uri>http://twitter.com/oPadreVoador</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011861566</id>
+
+    <published>2008-11-18T22:10:40Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011861566"/>
+
+    <title>que acharam do photobucket do wall-e? eu adoro os backrounds do photobucket.</title>
+
+    <content type="html">que acharam do photobucket do wall-e? eu adoro os backrounds do photobucket.</content>
+
+    <updated>2008-11-18T22:10:40Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011857210</id>
+
+    <published>2008-11-18T22:07:39Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011857210"/>
+
+    <title>@oPadreVoador que assim seja! mas eu nem deveria descansar. &#233; que simplesmente n&#227;o rolou produ&#231;&#227;o, vamos ver se a noite melhora. :D</title>
+
+    <content type="html">&lt;a href="http://twitter.com/oPadreVoador"&gt;@oPadreVoador&lt;/a&gt; que assim seja! mas eu nem deveria descansar. &#233; que simplesmente n&#227;o rolou produ&#231;&#227;o, vamos ver se a noite melhora. :D</content>
+
+    <updated>2008-11-18T22:07:39Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1011857210.atom"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011847664</id>
+
+    <published>2008-11-18T22:01:28Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011847664"/>
+
+    <title>@bpinaud bem vindo! e parabens pelo isofa, &#243;tima alternativa para minhas madrugadas. :D</title>
+
+    <content type="html">&lt;a href="http://twitter.com/bpinaud"&gt;@bpinaud&lt;/a&gt; bem vindo! e parabens pelo isofa, &#243;tima alternativa para minhas madrugadas. :D</content>
+
+    <updated>2008-11-18T22:01:28Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1011847664.atom"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011843370</id>
+
+    <published>2008-11-18T21:58:46Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011843370"/>
+
+    <title>Acho mto ruim quando algu&#233;m tenta promover uma coisa pr&#243;pria sem dizer que tem liga&#231;&#227;o com aquilo. S&#243; passa desconfian&#231;a.</title>
+
+    <content type="html">Acho mto ruim quando algu&#233;m tenta promover uma coisa pr&#243;pria sem dizer que tem liga&#231;&#227;o com aquilo. S&#243; passa desconfian&#231;a.</content>
+
+    <updated>2008-11-18T21:58:46Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011820041</id>
+
+    <published>2008-11-18T21:43:32Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/oPadreVoador/statuses/1011820041"/>
+
+    <title>@gserrano hoje foi meu dia de correria, ser&#225; que amanh&#227; eu descanso? *-*</title>
+
+    <content type="html">&lt;a href="http://twitter.com/gserrano"&gt;@&lt;b&gt;gserrano&lt;/b&gt;&lt;/a&gt; hoje foi meu dia de correria, ser&#225; que amanh&#227; eu descanso? *-*</content>
+
+    <updated>2008-11-18T21:43:32Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/60831933/opvlogovp0_normal.png"/>
+
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1011820041.atom"/>
+
+    <author>
+
+      <name>oPadreVoador (oPadreVoador)</name>
+
+      <uri>http://twitter.com/oPadreVoador</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011815993</id>
+
+    <published>2008-11-18T21:40:49Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011815993"/>
+
+    <title>Ontem o dia foi uma correria do capeta, a&#237; pra compensar hj eu n&#227;o fiz NADA.</title>
+
+    <content type="html">Ontem o dia foi uma correria do capeta, a&#237; pra compensar hj eu n&#227;o fiz NADA.</content>
+
+    <updated>2008-11-18T21:40:49Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011776936</id>
+
+    <published>2008-11-18T21:15:30Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011776936"/>
+
+    <title>que tal servir aperitivo num ralo pra banheiro? http://tinyurl.com/5obmlo</title>
+
+    <content type="html">que tal servir aperitivo num ralo pra banheiro? &lt;a href="http://tinyurl.com/5obmlo"&gt;http://tinyurl.com/5obmlo&lt;/a&gt;</content>
+
+    <updated>2008-11-18T21:15:30Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+  <entry>
+
+    <id>tag:search.twitter.com,2005:1011521172</id>
+
+    <published>2008-11-18T18:32:52Z</published>
+
+    <link type="text/html" rel="alternate" href="http://twitter.com/gserrano/statuses/1011521172"/>
+
+    <title>@chrisloki "eu sei que n&#227;o, mas vou fazer" &#233; o que diferencia homens de meninos. gogo! :D</title>
+
+    <content type="html">&lt;a href="http://twitter.com/chrisloki"&gt;@chrisloki&lt;/a&gt; &amp;quot;eu sei que n&#227;o, mas vou fazer&amp;quot; &#233; o que diferencia homens de meninos. gogo! :D</content>
+
+    <updated>2008-11-18T18:32:52Z</updated>
+
+    <link type="image/png" rel="image" href="http://s3.amazonaws.com/twitter_production/profile_images/62939563/gserrano2_normal.jpg"/>
+
+    <link type="application/atom+xml" rel="thread" href="http://search.twitter.com/search/thread/1011521172.atom"/>
+
+    <author>
+
+      <name>gserrano (Guilherme Serrano)</name>
+
+      <uri>http://twitter.com/gserrano</uri>
+
+    </author>
+
+  </entry>
+
+
+
+</feed>

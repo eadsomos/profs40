@@ -1,0 +1,61 @@
+<html>
+ <head>
+  <title>Construtor de Histórias On-Line</title>
+<style>
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(_IMAGEM/fundo.jpg);
+}
+
+#flashcontent {
+	border: solid 0px #eeeeee;
+	width: 100%;
+	height: 100%;
+	float: center;
+	margin: 0px 0px;
+}
+-->
+</style>
+	
+
+<script src="swfobject.js"></script>
+
+</head>
+
+    <body>
+
+<table width='100%' height='100%'border='0' cellpadding='0' cellspacing='0'>  <tr>     <td align='center' valign='middle' bgcolor='#000000' background='_IMAGEM/fundo.jpg'>
+<div id="flashcontent" align="center">
+
+ <script language="javascript">
+<!--
+
+if (screen.width > 800){
+		// <![CDATA[
+		
+		var so = new SWFObject("index.swf?ver=9", "sotester2","770", "987", "8", "#FFFFFF", true, "high");
+		so.addVariable("preclicado", "ticom"); //mudar valor da variável.
+		so.write("flashcontent");
+		
+		// ]]>
+}
+else 
+		// <![CDATA[
+		
+		var so = new SWFObject("index.swf?ver=9", "sotester2", "770", "987", "8", "#FFFFFF", true, "high");
+		so.addVariable("preclicado", "ticom"); //mudar valor da variável.
+		so.write("flashcontent");
+		
+		// ]]>
+
+// -->
+</script>
+
+</td>  </tr></table>
+
+</body>
+</html>

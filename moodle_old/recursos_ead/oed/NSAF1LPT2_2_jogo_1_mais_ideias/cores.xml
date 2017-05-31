@@ -1,0 +1,17 @@
+
+<root>
+	<cinza hue0="-70" hue1 = "-70" hue2 = "-70" hue3 = "-70" sat0 = "0" sat1 = "0" sat2 = "0" sat3 = "0" bri0 = "60" bri1 = "40" bri2 = "60" bri3 = "25" color = "#999999"></cinza> 
+	<roxo hue0="253" hue1 = "210" hue2 = "253" hue3 = "253" sat0 = "1" sat1 = "1" sat2 = "1" sat3 = "1" bri0 = "-50" bri1 = "30" bri2 = "-50" bri3 = "1" color = "#7318C7"></roxo>
+	<vermelho hue0="330" hue1 = "330" hue2 = "330" hue3 = "330" sat0 = "0.8" sat1 = "0.8" sat2 = "0.8" sat3 = "0.8" bri0 = "-20" bri1 = "-20" bri2 = "-20" bri3 = "-20" color = "#CF3242"></vermelho>	
+	<rosa hue0="290" hue1 = "290" hue2 = "290" hue3 = "290" sat0 = "0.7" sat1 = "0.7" sat2 = "0.7" sat3 = "0.7" bri0 = "-45" bri1 = "-22" bri2 = "-45" bri3 = "-22" color = "#B73677"></rosa>
+	<laranja hue0="0" hue1 = "0" hue2 = "0" hue3 = "0" sat0 = "1" sat1 = "1" sat2 = "1" sat3 = "1" bri0 = "1" bri1 = "1" bri2 = "1" bri3 = "1" color = "#E37639"></laranja> 
+	<verde hue0="70" hue1 = "35" hue2 = "70" hue3 = "60" sat0 = "1" sat1 = "1" sat2 = "0.8" sat3 = "1" bri0 = "-5" bri1 = "40" bri2 = "5" bri3 = "5" color = "#006600"></verde>
+	<amarelo hue0="30" hue1 = "20" hue2 = "25" hue3 = "30" sat0 = "0.9" sat1 = "0.9" sat2 = "0.7" sat3 = "0.9" bri0 = "70" bri1 = "40" bri2 = "85" bri3 = "60" color = "#EEBC5F"></amarelo>
+	<petroleo hue0="147" hue1 = "147" hue2 = "150" hue3 = "147" sat0 = "0.8" sat1 = "0.5" sat2 = "1" sat3 = "0.8" bri0 = "10" bri1 = "10" bri2 = "10" bri3 = "10" color = "#339999"></petroleo>
+	<azul hue0="180" hue1 = "180" hue2 = "180" hue3 = "180" sat0 = "1" sat1 = "1" sat2 = "1" sat3 = "1" bri0 = "-50" bri1 = "1" bri2 = "-50" bri3 = "1" color = "#0033FF"></azul> 	
+</root>
+
+
+
+
+		

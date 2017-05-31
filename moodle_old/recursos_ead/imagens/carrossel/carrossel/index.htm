@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="language" content="pt-br" />
+        <meta name="Description" content=" " />
+		<meta name="Keywords" content=" " />
+		<link rel="shortcut icon" href="" />
+		<link rel="stylesheet" href="" />
+		<title>Untitled</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+			$(function() {
+			  $.ajax({
+				type: "GET",
+				url: "sites.xml",
+				dataType: "xml",
+				success: function(xml) {
+				  $(xml).find('site').each(function() {
+					var nome = $(this).find('nome').text();
+					var url = $(this).find('url').text();
+					$('<p></p>').html(nome+'<br />'+url).appendTo('#wrap');
+				  });
+				}
+			  });
+			});
+		</script>
+	</head>
+	<body>
+		<div id="wrap"></div>
+	</body>
+</html>

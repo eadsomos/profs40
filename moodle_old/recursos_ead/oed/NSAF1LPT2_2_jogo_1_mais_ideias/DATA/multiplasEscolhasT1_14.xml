@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<text name="pergunta"><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1">Para evitar repetições, o autor usou a estratégia de empregar palavras de sentido equivalente. Descubra quais são e assinale a alternativa correta: </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"><I></I></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"><I>A causa ainda não está esclarecida, mas resultados preliminares indicam que os pássaros morreram por alguma razão física, indicando que as mortes não estavam relacionadas a alguma doença. </I></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"><I>O caso não é inédito. Em janeiro de 2010, cerca de 3.000 aves morreram em condições misteriosas na mesma cidade. </I></FONT></P></TEXTFORMAT></text> 
+	<text name="alternativaI">causa - resultados</text> 
+	<text name="alternativaII">pássaros - aves</text> 
+	<text name="alternativaIII">mortes - morreram</text> 
+	<text name="alternativaIV">doença - condições misteriosas</text> 
+	<text name="resposta">2</text> 
+	<text name="feedback" value="images/default_feedback.jpg" /> 
+</root>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<text name="pergunta"><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1">Compare as expressões presentes no título e no lide do texto, respectivamente, e assinale a alternativa correta: </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"><B>Milhares</B> de pássaros mortos caem do céu no primeiro dia do ano.</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"><B>Cerca de 5.000</B> pássaros mortos assustaram os moradores da cidade de Beebe, no Arkansas, no primeiro dia do ano. As aves caíram sobre estradas, telhados e quintais de várias casas. </FONT></P></TEXTFORMAT></text> 
+	<text name="alternativaI">As expressões não têm o mesmo sentido. A primeira é mais precisa do que a segunda.</text> 
+	<text name="alternativaII">A segunda expressão indica com maior precisão o número de pássaros mortos.</text> 
+	<text name="alternativaIII">As duas expressões têm exatamente o mesmo sentido.</text> 
+	<text name="alternativaIV">A expressão "cerca de 5.000" indica que mais do que 5 mil aves morreram.</text> 
+	<text name="resposta">2</text> 
+	<text name="feedback" value="images/default_feedback.jpg" /> 
+</root>

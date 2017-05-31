@@ -1,0 +1,44 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Jogo de memória</title>
+<style type="text/css">
+<!--
+#flashcontent {
+	border: solid 0px #eeeeee;
+	width: 100%;
+	height: 100%;
+	float: center;
+	margin: 0px 0px;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+<script src="swfobject.js"></script>
+</head>
+
+<body>
+
+<div id="flashcontent" align="center">
+</div>
+
+<script type="text/javascript">
+		// <![CDATA[
+		
+		var so = new SWFObject("memoria.swf?ver=8", "sotester2", "100", "100" , "8", "#FFFFFF", true, "high");
+		so.addVariable("preclicado", "ingles"); //mudar valor da variável.
+		so.write("flashcontent");
+		
+		// ]]>
+	</script>
+
+
+
+</object>
+</body>
+</html>

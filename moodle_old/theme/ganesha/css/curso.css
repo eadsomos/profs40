@@ -1,0 +1,14 @@
+.course-content ul li.section.main {border: none!important;}
+/*li.type_structure.contains_branch.depth_2.collapsed{border-bottom: 1px solid #ededed;}*/
+
+/*.block .header { display: none;}*/
+
+section#region-main {background: #fff;border: 1px solid #e9e9e9;padding: 20px;}
+
+
+
+.course-content ul.topics li.section .content, .course-content ul.weeks li.section .content {margin:0!important;}
+
+
+
+.clearfix {padding: 15px;}

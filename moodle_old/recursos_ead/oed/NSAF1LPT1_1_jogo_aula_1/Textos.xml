@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<textos>
+  <game id="1">
+    <jogo text="Como escreve?" color="#FFFFFF" />
+    <pontos text="PONTOS" color="#FFFFFF" />
+    <ok text="OK" color="#FFFFFF" />
+    <palavras text="DIGITE AQUI:" color="#FFFFFF" />
+    <borda text="#C71585" />
+    <novojogo text="REINICIAR" color="#FFFFFF" />
+    <sair text="SAIR" color="#FFFFFF" />
+    <instrucao text="INSTRUÇÕES" color="#FFFFFF" />
+  </game>
+</textos>

@@ -1,0 +1,1647 @@
+@charset "UTF-8";
+/* CSS Document 
+HIS: #c2004c
+ART: #009042
+MAT: #c5692e
+LPT: #96142a
+GEO: #0088c7
+EDF: #c5341b
+CIE: #008e9d
+ING: # 00867D
+*/
+
+/* ESTRUTURAL POR PORCENTAGEM */
+#oitenta {
+    border: 1px solid #CCCCCC;
+    border-radius: 8px 8px 8px 8px;
+    float: left;
+    height: 337px;
+    margin-left: 10px;
+    margin-top: 16px;
+    width: 91%;
+}	
+#trintatres {
+    float: left;
+    height: 250px;
+    margin-top: 36px;
+    padding: 1%;
+    text-align: center;
+    width: 31%;
+}
+#trintatres p {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#trintatres span {
+	font-weight:normal;
+	font-size:12px;
+	color:#666;
+}
+#vinte{
+	float:left;
+	height:100%;
+	width:3%;
+	
+}
+#seis {
+    float: left;
+    height: 250px;
+    width: 3%;
+}
+#dez {
+    float: left;
+    height: 90%;
+    padding: 10px 0 0 30px;
+    width: 15%;
+}
+#noventa {
+    float: left;
+    height: 100%;
+    width: 79%;
+}
+#cinco{
+	float:left;
+	height:100%;
+	width:5%;
+	
+}
+#dois{
+	float:left;
+	height:100%;
+	width:4%;
+	
+}
+#tres{
+	float:left;
+	height:100%;
+	width:3%;
+	
+}
+#sessenta{
+	float:left;
+	height:100%;
+	width:58%;
+	
+}
+#trinta{
+	float:left;
+	height:100%;
+	width:30%;
+}
+/* FECHA ESTRUTURAL POR PORCENTAGEM*/
+
+
+* {
+margin: 0;
+padding: 0;
+font-family: Verdana,Geneva,sans-serif;
+}
+#topo {
+    border-radius: 10px 10px 10px 10px;
+    height: 93px;
+    min-width: 521px;
+    width: 100%;
+}
+#conteudo {
+    float: left;
+    margin-top: 10px;
+    max-width: 700px;
+    min-width: 521px;
+    width: 100%;
+}
+#conteudo2 {
+    float: left;
+    width: 100%;
+}
+/* Página 01 */
+#tudo2 {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Verdana,Geneva,sans-serif;
+    height: 498px;
+    max-width: 700px;
+    min-width: 549px;
+	margin:0 auto;
+}
+.logo {
+    background-image: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/NSAF2HIS_ICON.jpg");
+    display: block;
+    float: left;
+    height: 74px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 68px;
+}
+.introduction {
+    color: #666666;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.foto01 {
+    float: left;
+    padding-left: 2%;
+    width: 30%;
+}
+
+/*MENU PREFÁCIO */
+#content {
+    display: inline-block;
+    float: left;
+    max-width: 465px;
+    overflow: hidden;
+    padding-top: 2px;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+}
+#content:hover{
+	white-space:initial;
+}
+/* FECHA MENU PREFÁCIO */
+
+/* FIM DA PÁGINA 01 */
+/* --------------------- PÁGINA 02 */
+#boxfixointro {
+    background: none repeat scroll 0 0 #FFF;
+    float: left;
+    height: 275px;
+    margin: 40px 0 0 -45px;
+    width: 415px;
+}
+.foto02 {
+    display: block;
+}
+.introduction2 {
+    color: #666666;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+#boxfixointro h1{
+	font-size:16px;
+	color:#c2004c;
+	margin-bottom:15px;
+}
+/* ------------------- FIM PÁGINA 02 */
+/* ------ PÁGINA 03  #009042 */
+.list {
+    border-bottom: 1px solid #C3C3C3;
+    font-weight: normal;
+    padding-bottom: 11px;
+    padding-left: 12px;
+    padding-top: 7px;
+}
+.list_sel {
+    border-bottom: 1px solid #C3C3C3;
+    border-right: 2px solid #FFFFFF;
+    font-weight: bold;
+    padding-bottom: 11px;
+    padding-left: 12px;
+    padding-top: 7px;
+}
+#quadro {
+    border: 1px solid #CCCCCC;
+    border-radius: 0 10px 10px 10px;
+    color: #666666;
+    font-size: 12px;
+    height: 391px;
+    left: 144px;
+    line-height: 20px;
+    overflow: auto;
+    padding: 20px 12px 10px 20px;
+    position: absolute;
+    text-align: left;
+    top: 99px;
+    width: 530px;
+}
+#versaoimpressa {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/versao_impressa.jpg") no-repeat scroll 14px 0 transparent;
+    color: #C2004C;
+    display: block;
+    float: left;
+    font-size: 10px;
+    height: 8px;
+    left: 7px;
+    padding-top: 13px;
+    position: absolute;
+    text-decoration: none;
+    top: 478px;
+    width: 130px;
+}
+#bordamenu {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    float: left;
+    height: 117px;
+    margin: 322px 0 0 20px;
+    position: absolute;
+    width: 193px;
+    z-index: 99;
+}
+#boxview {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    height: 540px;
+    max-width: 722px;
+    min-width: 560px;
+}
+#quadrofechamento {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    color: #666666;
+    font-size: 12px;
+    height: 330px;
+    left: 35px;
+    line-height: 20px;
+    overflow: auto;
+    padding: 20px 12px 10px 20px;
+    position: absolute;
+    text-align: left;
+    top: 104px;
+    width: 630px;
+}
+#habilidades{
+	width:150px;
+	height:150px;
+	background:#999999;
+	float:left;
+}
+.ppt {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/ppt.jpg") no-repeat scroll 0 0 transparent;
+    color: #666666;
+    display: block;
+    height: 44px;
+    margin-top: 7px;
+    padding: 11px 0 0 40px;
+    text-decoration: none;
+    width: 215px;
+}
+.pdf {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/pdf.jpg") no-repeat scroll 0 0 transparent;
+    box-shadow: none;
+    color: #666666;
+    display: block;
+    height: 42px;
+    width: 41px;
+}
+.sectionname{
+	display:none;
+}
+
+/*.mod-indent a{
+	display:none;
+}
+
+/* SEPARAÇÃO DE CORES POR DISCIPLINA * ------ história------------
+
+HIS: #c2004c
+ART: #009042
+MAT: #c5692e
+LPT: #96142a
+GEO: #0088c7
+EDF: #c5341b
+CIE: #008e9d
+ING: # 00867D
+
+*/
+
+#teste_historia {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/teste_o_conhecimento.jpg") no-repeat scroll 0 0 transparent;
+    color: #C2004C;
+    float: left;
+    height: 45px;
+    left: 37px;
+    padding-left: 58px;
+    padding-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 481px;
+}
+#teste_historia p{
+	font-size:14px;
+	
+}
+#teste_historia span{
+	font-size:12px;
+	
+}
+
+.titulo_historia {
+    background-color: #C2004C;
+    border-radius: 8px 8px 8px 8px;
+    height: 46px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 4px 0 0 20px;
+}
+.titulo_historia p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_historia span{
+	color:#FFFFFF;
+	font-size:10px;
+}
+.titulo_historia_intern p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_historia_intern {
+    background-color: #C2004C;
+    border-radius: 8px 8px 8px 8px;
+    height: 35px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 15px 0 0 20px;
+}
+.menumodulos_historia {
+    color: #C2004C;
+    float: left;
+    width: 55%;
+}
+.menumodulos_historia li {
+	font-size:13px;
+	color:#c2004c;
+	line-height:20px;
+	padding:0px;
+}
+.menumodulos_historia ol {
+    margin: 0 0 0 11px;
+    padding: 0;
+}
+.menumodulos_historia span{
+	font-size:13px;
+	color:#c2004c;
+	line-height:20px;
+}
+.menumodulos_historia a{
+	color:#c2004c;
+	text-decoration:none;
+}
+.menumodulos_historia a:hover{
+	color:#F36;
+}
+#menuflutuante_historia {
+    background: none repeat scroll 0 0 #C2004C;
+    border-radius: 8px 8px 8px 8px;
+    margin: -5px 0 0 5px;
+    width: 183px;
+    z-index: 99;
+}
+#menuflutuante_historia ul {
+    margin: 10px 0 0;
+    width: 100%;
+}
+#menuflutuante_historia ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 35px;
+    list-style: none outside none;
+	border-bottom:solid 1px #FFF;
+}
+#menuflutuante_historia ul li a {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#menuflutuante_historia ul li a:hover{
+	background-color:#b31d49;
+}
+#meny_historia {
+    border-color: #CCCCCC #CCCCCC #CCCCCC #CCCCCC;
+    border-radius: 10px 0 0 10px;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    left: 25px;
+    position: absolute;
+    top: 99px;
+    width: 119px;
+    z-index: 99;
+}
+#meny_historia a{
+	font-size:14px;
+	text-decoration:none;
+	color:#c2004c;
+}
+.link_historia{
+	text-decoration:none;
+	color:#C2004C;
+}
+#confira_historia{
+	margin: 0 0 15px 0;
+}
+
+#confira_historia a{
+	text-decoration:none;
+	font-size:13px;
+	color:#C2004C;
+	margin: 0 0 15px 0;
+}
+
+
+/* SEPARAÇÃO DE CORES POR DISCIPLINA * ------ ARTES ------------
+
+HIS: #c2004c
+ART: #009042 hover #006600
+MAT: #c5692e
+LPT: #96142a
+GEO: #0088c7
+EDF: #c5341b
+CIE: #008e9d
+ING: # 00867D
+*/
+
+#teste_artes {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/teste_o_conhecimento.jpg") no-repeat scroll 0 0 transparent;
+    color: #009042;
+    float: left;
+    height: 45px;
+    left: 37px;
+    padding-left: 58px;
+    padding-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 481px;
+}
+#teste_artes p{
+	font-size:14px;
+	
+}
+#teste_artes span{
+	font-size:12px;
+	
+}
+#menuflutuante_artes {
+   background: none repeat scroll 0 0 #009042;
+    border-radius: 8px 8px 8px 8px;
+    margin: -5px 0 0 5px;
+    width: 183px;
+    z-index: 99;
+}
+#menuflutuante_artes ul {
+    margin: 10px 0 0;
+    width: 100%;
+}
+#menuflutuante_artes ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 35px;
+    list-style: none outside none;
+	border-bottom:solid 1px #FFF;
+}
+#menuflutuante_artes ul li a {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#menuflutuante_artes ul li a:hover{
+	background-color:#006600;
+}
+#menuflutuante_artes ul li a:hover.cima{
+	height:40px;
+	border-radius:10px 0 0 10px;
+	
+}
+.menumodulos_artes {
+    color: #009042;
+    float: left;
+    width: 60%;
+}
+.menumodulos_artes li {
+	font-size:13px;
+	color:#009042;
+	line-height:20px;
+	padding:0px;
+}
+.menumodulos_artes span{
+	font-size:13px;
+	color:#009042;
+	line-height:20px;
+}
+.menumodulos_artes a{
+	color:#009042;
+	text-decoration:none;
+}
+.menumodulos_artes a:hover{
+	color:#006600;
+}
+.link_artes{
+	text-decoration:none;
+	color:#009042;
+}
+#meny_artes {
+    border-color: #CCCCCC #CCCCCC #CCCCCC #CCCCCC;
+    border-radius: 10px 0 0 10px;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    left: 25px;
+    position: absolute;
+    top: 99px;
+    width: 119px;
+    z-index: 99;
+}
+#meny_artes a{
+	font-size:14px;
+	text-decoration:none;
+	color:#009042;
+}
+#confira_artes{
+	margin: 0 0 15px 0;
+}
+#confira_artes a{
+	text-decoration:none;
+	font-size:13px;
+	color:#009042;
+	margin: 0 0 15px 0;
+}
+.titulo_artes {
+    background-color: #009042;
+    border-radius: 8px 8px 8px 8px;
+    height: 46px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 4px 0 0 20px;
+}
+.titulo_artes p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_artes span{
+	color:#FFFFFF;
+	font-size:10px;
+}
+.titulo_artes_intern p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_artes_intern {
+    background-color: #009042;
+    border-radius: 8px 8px 8px 8px;
+    height: 35px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 15px 0 0 20px;
+}
+
+/* SEPARAÇÃO DE CORES POR DISCIPLINA * ------ MATEMÁTICA ------------
+
+HIS: #c2004c
+ART: #009042 hover #006600
+MAT: #c5692e hover #BB5C35
+LPT: #96142a
+GEO: #0088c7
+EDF: #c5341b
+CIE: #008e9d
+ING: # 00867D
+*/
+
+#teste_matematica {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/teste_o_conhecimento.jpg") no-repeat scroll 0 0 transparent;
+    color:#c5692e;
+    float: left;
+    height: 45px;
+    left: 37px;
+    padding-left: 58px;
+    padding-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 481px;
+}
+#teste_matematica p{
+	font-size:14px;
+	
+}
+#teste_matematica span{
+	font-size:12px;
+	
+}
+#menuflutuante_matematica {
+   background: none repeat scroll 0 0 #c5692e;
+    border-radius: 8px 8px 8px 8px;
+    margin: -5px 0 0 5px;
+    width: 183px;
+    z-index: 99;
+}
+#menuflutuante_matematica ul {
+    margin: 10px 0 0;
+    width: 100%;
+}
+#menuflutuante_matematica ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 35px;
+    list-style: none outside none;
+	border-bottom:solid 1px #FFF;
+}
+#menuflutuante_matematica ul li a {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#menuflutuante_matematica ul li a:hover{
+	background-color:#BB5C35;
+}
+#menuflutuante_matematica ul li a:hover.cima{
+	height:40px;
+	border-radius:10px 0 0 10px;
+	
+}
+.menumodulos_matematica {
+    color: #c5692e;
+    float: left;
+    width: 60%;
+}
+.menumodulos_matematica li {
+	font-size:13px;
+	color:#c5692e;
+	line-height:20px;
+	padding:0px;
+}
+.menumodulos_matematica span{
+	font-size:13px;
+	color:#c5692e;
+	line-height:20px;
+}
+.menumodulos_matematica a{
+	color:#c5692e;
+	text-decoration:none;
+}
+.menumodulos_matematica a:hover{
+	color:#BB5C35;
+}
+.link_matematica{
+	text-decoration:none;
+	color:#c5692e;
+}
+#meny_matematica {
+    border-color: #CCCCCC #CCCCCC #CCCCCC #CCCCCC;
+    border-radius: 10px 0 0 10px;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    left: 25px;
+    position: absolute;
+    top: 99px;
+    width: 119px;
+    z-index: 99;
+}
+#meny_matematica a{
+	font-size:14px;
+	text-decoration:none;
+	color:#c5692e;
+}
+#confira_matematica{
+	margin: 0 0 15px 0;
+}
+#confira_matematica a{
+	text-decoration:none;
+	font-size:13px;
+	color:#c5692e;
+	margin: 0 0 15px 0;
+}
+.titulo_matematica {
+    background-color: #c5692e;
+    border-radius: 8px 8px 8px 8px;
+    height: 46px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 4px 0 0 20px;
+}
+.titulo_matematica p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_matematica span{
+	color:#FFFFFF;
+	font-size:10px;
+}
+.titulo_matematica_intern p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_matematica_intern {
+    background-color: #c5692e;
+    border-radius: 8px 8px 8px 8px;
+    height: 35px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 15px 0 0 20px;
+}
+/* SEPARAÇÃO DE CORES POR DISCIPLINA * ------ LPT ------------
+
+HIS: #c2004c
+ART: #009042 hover #006600
+MAT: #c5692e hover #BB5C35
+LPT: #96142a hover #9F1D09
+GEO: #0088c7
+EDF: #c5341b
+CIE: #008e9d
+ING: # 00867D
+*/
+
+#teste_lpt {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/teste_o_conhecimento.jpg") no-repeat scroll 0 0 transparent;
+    color:#96142a;
+    float: left;
+    height: 45px;
+    left: 37px;
+    padding-left: 58px;
+    padding-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 481px;
+}
+#teste_lpt p{
+	font-size:14px;
+	
+}
+#teste_lpt span{
+	font-size:12px;
+	
+}
+#menuflutuante_lpt {
+   background: none repeat scroll 0 0 #96142a;
+    border-radius: 8px 8px 8px 8px;
+    margin: -5px 0 0 5px;
+    width: 183px;
+    z-index: 99;
+}
+#menuflutuante_lpt ul {
+    margin: 10px 0 0;
+    width: 100%;
+}
+#menuflutuante_lpt ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 35px;
+    list-style: none outside none;
+	border-bottom:solid 1px #FFF;
+}
+#menuflutuante_lpt ul li a {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#menuflutuante_lpt ul li a:hover{
+	background-color:#9F1D09;
+}
+#menuflutuante_lpt ul li a:hover.cima{
+	height:40px;
+	border-radius:10px 0 0 10px;
+	
+}
+.menumodulos_lpt {
+    color: #96142a;
+    float: left;
+    width: 60%;
+}
+.menumodulos_lpt li {
+	font-size:13px;
+	color:#96142a;
+	line-height:20px;
+	padding:0px;
+}
+.menumodulos_lpt span{
+	font-size:13px;
+	color:#96142a;
+	line-height:20px;
+}
+.menumodulos_lpt a{
+	color:#96142a;
+	text-decoration:none;
+}
+.menumodulos_lpt a:hover{
+	color:#BB5C35;
+}
+.link_lpt{
+	text-decoration:none;
+	color:#96142a;
+}
+#meny_lpt {
+    border-color: #CCCCCC #CCCCCC #CCCCCC #CCCCCC;
+    border-radius: 10px 0 0 10px;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    left: 25px;
+    position: absolute;
+    top: 99px;
+    width: 119px;
+    z-index: 99;
+}
+#meny_lpt a{
+	font-size:14px;
+	text-decoration:none;
+	color:#96142a;
+}
+#confira_lpt{
+	margin: 0 0 15px 0;
+}
+#confira_lpt a{
+	text-decoration:none;
+	font-size:13px;
+	color:#96142a;
+	margin: 0 0 15px 0;
+}
+.titulo_lpt {
+    background-color: #96142a;
+    border-radius: 8px 8px 8px 8px;
+    height: 46px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 4px 0 0 20px;
+}
+.titulo_lpt p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_lpt span{
+	color:#FFFFFF;
+	font-size:10px;
+}
+.titulo_lpt_intern p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_lpt_intern {
+    background-color: #96142a;
+    border-radius: 8px 8px 8px 8px;
+    height: 35px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 15px 0 0 20px;
+}
+/* SEPARAÇÃO DE CORES POR DISCIPLINA * ------ GEOGRAFIA ------------
+
+HIS: #c2004c
+ART: #009042 hover #006600
+MAT: #c5692e hover #BB5C35
+LPT: #96142a hover #9F1D09
+GEO: #0088c7 hover #0E5BA9
+EDF: #c5341b
+CIE: #008e9d
+ING: # 00867D
+*/
+
+#teste_geografia {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/teste_o_conhecimento.jpg") no-repeat scroll 0 0 transparent;
+    color:#0088c7;
+    float: left;
+    height: 45px;
+    left: 37px;
+    padding-left: 58px;
+    padding-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 481px;
+}
+#teste_geografia p{
+	font-size:14px;
+	
+}
+#teste_geografia span{
+	font-size:12px;
+	
+}
+#menuflutuante_geografia {
+   background: none repeat scroll 0 0 #0088c7;
+    border-radius: 8px 8px 8px 8px;
+    margin: -5px 0 0 5px;
+    width: 183px;
+    z-index: 99;
+}
+#menuflutuante_geografia ul {
+    margin: 10px 0 0;
+    width: 100%;
+}
+#menuflutuante_geografia ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 35px;
+    list-style: none outside none;
+	border-bottom:solid 1px #FFF;
+}
+#menuflutuante_geografia ul li a {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#menuflutuante_geografia ul li a:hover{
+	background-color:#0E5BA9;
+}
+#menuflutuante_geografia ul li a:hover.cima{
+	height:40px;
+	border-radius:10px 0 0 10px;
+	
+}
+.menumodulos_geografia {
+    color: #0088c7;
+    float: left;
+    width: 60%;
+}
+.menumodulos_geografia li {
+	font-size:13px;
+	color:#0088c7;
+	line-height:20px;
+	padding:0px;
+}
+.menumodulos_geografia span{
+	font-size:13px;
+	color:#0088c7;
+	line-height:20px;
+}
+.menumodulos_geografia a{
+	color:#0088c7;
+	text-decoration:none;
+}
+.menumodulos_geografia a:hover{
+	color:#0E5BA9;
+}
+.link_geografia{
+	text-decoration:none;
+	color:#0088c7;
+}
+#meny_geografia {
+    border-color: #CCCCCC #CCCCCC #CCCCCC #CCCCCC;
+    border-radius: 10px 0 0 10px;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    left: 25px;
+    position: absolute;
+    top: 99px;
+    width: 119px;
+    z-index: 99;
+}
+#meny_geografia a{
+	font-size:14px;
+	text-decoration:none;
+	color:#0088c7;
+}
+#confira_geografia{
+	margin: 0 0 15px 0;
+}
+#confira_geografia a{
+	text-decoration:none;
+	font-size:13px;
+	color:#0088c7;
+	margin: 0 0 15px 0;
+}
+.titulo_geografia {
+    background-color: #0088c7;
+    border-radius: 8px 8px 8px 8px;
+    height: 46px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 4px 0 0 20px;
+}
+.titulo_geografia p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_geografia span{
+	color:#FFFFFF;
+	font-size:10px;
+}
+.titulo_geografia_intern p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_geografia_intern {
+    background-color: #0088c7;
+    border-radius: 8px 8px 8px 8px;
+    height: 35px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 15px 0 0 20px;
+}
+/* SEPARAÇÃO DE CORES POR DISCIPLINA * ------ EDUCACAO FÍSICA ------------
+
+HIS: #c2004c
+ART: #009042 hover #006600
+MAT: #c5692e hover #BB5C35
+LPT: #96142a hover #9F1D09
+GEO: #0088c7 hover #0E5BA9
+EDF: #c5341b hover #AF0312
+CIE: #008e9d
+ING: # 00867D
+*/
+
+#teste_edf {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/teste_o_conhecimento.jpg") no-repeat scroll 0 0 transparent;
+    color:#c5341b;
+    float: left;
+    height: 45px;
+    left: 37px;
+    padding-left: 58px;
+    padding-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 481px;
+}
+#teste_edf p{
+	font-size:14px;
+	
+}
+#teste_edf span{
+	font-size:12px;
+	
+}
+#menuflutuante_edf {
+   background: none repeat scroll 0 0 #c5341b;
+    border-radius: 8px 8px 8px 8px;
+    margin: -5px 0 0 5px;
+    width: 183px;
+    z-index: 99;
+}
+#menuflutuante_edf ul {
+    margin: 10px 0 0;
+    width: 100%;
+}
+#menuflutuante_edf ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 35px;
+    list-style: none outside none;
+	border-bottom:solid 1px #FFF;
+}
+#menuflutuante_edf ul li a {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#menuflutuante_edf ul li a:hover{
+	background-color:#AF0312;
+}
+#menuflutuante_edf ul li a:hover.cima{
+	height:40px;
+	border-radius:10px 0 0 10px;
+	
+}
+.menumodulos_edf {
+    color: #c5341b;
+    float: left;
+    width: 60%;
+}
+.menumodulos_edf li {
+	font-size:13px;
+	color:#c5341b;
+	line-height:20px;
+	padding:0px;
+}
+.menumodulos_edf span{
+	font-size:13px;
+	color:#c5341b;
+	line-height:20px;
+}
+.menumodulos_edf a{
+	color:#c5341b;
+	text-decoration:none;
+}
+.menumodulos_edf a:hover{
+	color:#AF0312;
+}
+.link_edf{
+	text-decoration:none;
+	color:#c5341b;
+}
+#meny_edf {
+    border-color: #CCCCCC #CCCCCC #CCCCCC #CCCCCC;
+    border-radius: 10px 0 0 10px;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    left: 25px;
+    position: absolute;
+    top: 99px;
+    width: 119px;
+    z-index: 99;
+}
+#meny_edf a{
+	font-size:14px;
+	text-decoration:none;
+	color:#c5341b;
+}
+#confira_edf{
+	margin: 0 0 15px 0;
+}
+#confira_edf a{
+	text-decoration:none;
+	font-size:13px;
+	color:#c5341b;
+	margin: 0 0 15px 0;
+}
+.titulo_edf {
+    background-color: #c5341b;
+    border-radius: 8px 8px 8px 8px;
+    height: 46px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 4px 0 0 20px;
+}
+.titulo_edf p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_edf span{
+	color:#FFFFFF;
+	font-size:10px;
+}
+.titulo_edf_intern p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_edf_intern {
+    background-color: #c5341b;
+    border-radius: 8px 8px 8px 8px;
+    height: 35px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 15px 0 0 20px;
+}
+/* SEPARAÇÃO DE CORES POR DISCIPLINA * ------ CIENCIAS ------------
+
+HIS: #c2004c
+ART: #009042 hover #006600
+MAT: #c5692e hover #BB5C35
+LPT: #96142a hover #9F1D09
+GEO: #0088c7 hover #0E5BA9
+EDF: #c5341b hover #AF0312
+CIE: #008e9d hover ##337A7E
+ING: # 00867D
+*/
+
+#teste_ciencias {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/teste_o_conhecimento.jpg") no-repeat scroll 0 0 transparent;
+    color:#008e9d;
+    float: left;
+    height: 45px;
+    left: 37px;
+    padding-left: 58px;
+    padding-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 481px;
+}
+#teste_ciencias p{
+	font-size:14px;
+	
+}
+#teste_ciencias span{
+	font-size:12px;
+	
+}
+#menuflutuante_ciencias {
+   background: none repeat scroll 0 0 #008e9d;
+    border-radius: 8px 8px 8px 8px;
+    margin: -5px 0 0 5px;
+    width: 183px;
+    z-index: 99;
+}
+#menuflutuante_ciencias ul {
+    margin: 10px 0 0;
+    width: 100%;
+}
+#menuflutuante_ciencias ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 35px;
+    list-style: none outside none;
+	border-bottom:solid 1px #FFF;
+}
+#menuflutuante_ciencias ul li a {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#menuflutuante_ciencias ul li a:hover{
+	background-color:#337A7E;
+}
+#menuflutuante_ciencias ul li a:hover.cima{
+	height:40px;
+	border-radius:10px 0 0 10px;
+	
+}
+.menumodulos_ciencias {
+    color: #00867D;
+    float: left;
+    width: 60%;
+}
+.menumodulos_ciencias li {
+	font-size:13px;
+	color:#008e9d;
+	line-height:20px;
+	padding:0px;
+}
+.menumodulos_ciencias span{
+	font-size:13px;
+	color:#008e9d;
+	line-height:20px;
+}
+.menumodulos_ciencias a{
+	color:#008e9d;
+	text-decoration:none;
+}
+.menumodulos_ciencias a:hover{
+	color:#337A7E;
+}
+.link_ciencias{
+	text-decoration:none;
+	color:#008e9d;
+}
+#meny_ciencias {
+    border-color: #CCCCCC #CCCCCC #CCCCCC #CCCCCC;
+    border-radius: 10px 0 0 10px;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    left: 25px;
+    position: absolute;
+    top: 99px;
+    width: 119px;
+    z-index: 99;
+}
+#meny_ciencias a{
+	font-size:14px;
+	text-decoration:none;
+	color:#008e9d;
+}
+#confira_ciencias{
+	margin: 0 0 15px 0;
+}
+#confira_ciencias a{
+	text-decoration:none;
+	font-size:13px;
+	color:#008e9d;
+	margin: 0 0 15px 0;
+}
+.titulo_ciencias {
+    background-color: #008e9d;
+    border-radius: 8px 8px 8px 8px;
+    height: 46px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 4px 0 0 20px;
+}
+.titulo_ciencias p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_ciencias span{
+	color:#FFFFFF;
+	font-size:10px;
+}
+.titulo_ciencias_intern p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_ciencias_intern {
+    background-color: #00869d;
+    border-radius: 8px 8px 8px 8px;
+    height: 35px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 15px 0 0 20px;
+}
+/* SEPARAÇÃO DE CORES POR DISCIPLINA * ------ INGLES ------------
+
+HIS: #c2004c
+ART: #009042 hover #006600
+MAT: #c5692e hover #BB5C35
+LPT: #96142a hover #9F1D09
+GEO: #0088c7 hover #0E5BA9
+EDF: #c5341b hover #AF0312
+CIE: #008e9d hover ##337A7E
+ING: #00867D hover #067970
+*/
+
+#teste_ingles {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/teste_o_conhecimento.jpg") no-repeat scroll 0 0 transparent;
+    color:#00867d;
+    float: left;
+    height: 45px;
+    left: 37px;
+    padding-left: 58px;
+    padding-top: 5px;
+    position: absolute;
+    text-decoration: none;
+    top: 481px;
+}
+#teste_ingles p{
+	font-size:14px;
+	
+}
+#teste_ingles span{
+	font-size:12px;
+	
+}
+#menuflutuante_ingles {
+   background: none repeat scroll 0 0 #00867D;
+    border-radius: 8px 8px 8px 8px;
+    margin: -5px 0 0 5px;
+    width: 183px;
+    z-index: 99;
+}
+#menuflutuante_ingles ul {
+    margin: 10px 0 0;
+    width: 100%;
+}
+#menuflutuante_ingles ul li {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 35px;
+    list-style: none outside none;
+	border-bottom:solid 1px #FFF;
+}
+#menuflutuante_ingles ul li a {
+    color: #FFFFFF;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+}
+#menuflutuante_ingles ul li a:hover{
+	background-color:#067970;
+}
+#menuflutuante_ingles ul li a:hover.cima{
+	height:40px;
+	border-radius:10px 0 0 10px;
+	
+}
+.menumodulos_ingles {
+    color: #00867D;
+    float: left;
+    width: 60%;
+}
+.menumodulos_ingles li {
+	font-size:13px;
+	color:#00867D;
+	line-height:20px;
+	padding:0px;
+}
+.menumodulos_ingles span{
+	font-size:13px;
+	color:#00867D;
+	line-height:20px;
+}
+.menumodulos_ingles a{
+	color:#00867D;
+	text-decoration:none;
+}
+.menumodulos_ingles a:hover{
+	color:#067970;
+}
+.link_ingles{
+	text-decoration:none;
+	color:#00867D;
+}
+#meny_ingles {
+    border-color: #CCCCCC #CCCCCC #CCCCCC #CCCCCC;
+    border-radius: 10px 0 0 10px;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    left: 25px;
+    position: absolute;
+    top: 99px;
+    width: 119px;
+    z-index: 99;
+}
+#meny_ingles a{
+	font-size:14px;
+	text-decoration:none;
+	color:#00867D;
+}
+#confira_ingles{
+	margin: 0 0 15px 0;
+}
+#confira_ingles a{
+	text-decoration:none;
+	font-size:13px;
+	color:#00867D;
+	margin: 0 0 15px 0;
+}
+.titulo_ingles {
+    background-color: #00867D;
+    border-radius: 8px 8px 8px 8px;
+    height: 46px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 4px 0 0 20px;
+}
+.titulo_ingles p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_ingles span{
+	color:#FFFFFF;
+	font-size:10px;
+}
+.titulo_ingles_intern p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.titulo_ingles_intern {
+    background-color: #00867D;
+    border-radius: 8px 8px 8px 8px;
+    height: 35px;
+    margin-right: 12px;
+    margin-top: 22px;
+    min-width: 212px;
+    padding: 15px 0 0 20px;
+}
+/*--------------------tolltip---------------------- dcontexto pertence a história*/
+#mostra {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/habilidades_do_enem.jpg") no-repeat scroll 0 0 transparent;
+    border-radius: 6px 6px 6px 6px;
+    color: #666666;
+    display: block;
+    font-size: 12px;
+    height: 37px;
+    margin-top: 75%%;
+    margin-top: 328px;
+    padding: 17px 0 0 77px;
+    position: relative;
+    text-decoration: none;
+    width: 151px;
+    z-index: 99;
+	float:right;
+	margin: 40px 30px 0 0;
+}
+#oculto {
+    display: none;
+    left: 23%;
+    margin: 0 auto;
+    position: absolute;
+    width: 392px;
+    z-index: 9999999;
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+}
+#mostra{
+	cursor:pointer;
+}
+
+#grid_oculto{
+    background: none repeat scroll 0 0 #FFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+	width:100%;
+}
+
+
+
+
+
+/*#dcontexto:hover{
+  background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/habilidades_do_enem.jpg") no-repeat scroll 0 0 transparent;
+  z-index:99;
+  cursor:pointer;
+  }
+a.dcontexto span{display: none}
+a.dcontexto:hover span{ 
+  display:block;
+  width:460px;
+  height:230px; 
+  top:-244px;
+  right-align:justify;
+  padding:5px 10px;
+  border:1px solid #ccc;
+  background:#F7F7F7; 
+  color:#000;
+  border-radius:10px;
+  cursor:pointer;
+  }
+  
+  
+  
+/*---*/
+a.dcontextoport {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/habilidades_do_enem.jpg") no-repeat scroll 0 0 transparent;
+    border-radius: 6px 6px 6px 6px;
+    color: #666666;
+    display: block;
+    font-size: 12px;
+    height: 37px;
+    padding: 17px 0 0 77px;
+    position: relative;
+    text-decoration: none;
+    width: 151px;
+    z-index: 99;
+}
+a.dcontextoport:hover{
+  background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/habilidades_do_enem.jpg") no-repeat scroll 0 0 transparent;
+  z-index:99;
+  cursor:pointer; 
+  }
+a.dcontextoport span{display: none}
+a.dcontextoport:hover span{ 
+  display:block;
+  position:absolute;
+  width:460px;
+  height:auto; 
+  top:-60px;
+  right-align:justify;
+  left:-260px;
+  padding:5px 10px;
+  border:1px solid #ccc;
+  background:#F7F7F7; 
+  color:#000;
+  border-radius:10px;
+  cursor:pointer;
+  }
+ /*---*/
+  
+  
+a.dcontextomat {
+    background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/habilidades_do_enem.jpg") no-repeat scroll 0 0 transparent;
+    border-radius: 6px 6px 6px 6px;
+    color: #666666;
+    display: block;
+    font-size: 12px;
+    height: 37px;
+    left: 610px;
+    padding: 17px 0 0 77px;
+    position: absolute;
+    text-decoration: none;
+    top: 445px;
+    width: 151px;
+    z-index: 99;
+}
+a.dcontextomat:hover{
+  background: url("http://www.eadabrileducacao.com.br/moodle/pix/icones/habilidades_do_enem.jpg") no-repeat scroll 0 0 transparent;
+  z-index:99;
+  cursor:pointer; 
+  }
+a.dcontextomat span{display: none}
+a.dcontextomat:hover span{ 
+  display:block;
+  position:absolute;
+  width:460px;
+  height:auto; 
+  top:-90px;
+  right-align:justify;
+  left:-260px;
+  padding:5px 10px;
+  border:1px solid #ccc;
+  background:#F7F7F7; 
+  color:#000;
+  border-radius:10px;
+  cursor:pointer;
+  }
+
+
+/*--------------------tolltip----------------------*/

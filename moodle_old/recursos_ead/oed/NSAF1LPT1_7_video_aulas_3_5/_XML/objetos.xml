@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<conteudo>
+
+	<cenarios>
+		<obj>_OBJETOS/cenarios/cenario_1.swf</obj>
+		<obj>_OBJETOS/cenarios/cenario_2.swf</obj>
+		<obj>_OBJETOS/cenarios/cenario_3.swf</obj>
+		<obj>_OBJETOS/cenarios/cenario_4.swf</obj>
+		<obj>_OBJETOS/cenarios/cenario_5.swf</obj>
+		<obj>_OBJETOS/cenarios/cenario_6.swf</obj>
+		<obj>_OBJETOS/cenarios/cenario_7.swf</obj>
+		<obj>_OBJETOS/cenarios/cenario_8.swf</obj>
+	</cenarios>
+	
+	<personagens>
+		<obj>_OBJETOS/personagens/persona_1.swf</obj>
+		<obj>_OBJETOS/personagens/persona_2.swf</obj>
+		<obj>_OBJETOS/personagens/persona_3.swf</obj>
+		<obj>_OBJETOS/personagens/persona_4.swf</obj>
+		<obj>_OBJETOS/personagens/persona_5.swf</obj>
+		<obj>_OBJETOS/personagens/persona_6.swf</obj>
+		<obj>_OBJETOS/personagens/persona_7.swf</obj>
+		<obj>_OBJETOS/personagens/persona_8.swf</obj>
+		<obj>_OBJETOS/personagens/persona_9.swf</obj>
+		<obj>_OBJETOS/personagens/persona_10.swf</obj>
+		<obj>_OBJETOS/personagens/persona_11.swf</obj>
+		<obj>_OBJETOS/personagens/persona_12.swf</obj>
+		<obj>_OBJETOS/personagens/persona_13.swf</obj>
+		<obj>_OBJETOS/personagens/persona_14.swf</obj>
+	</personagens>
+	
+	<objetos>
+		<obj>_OBJETOS/objetos/objeto_1.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_2.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_3.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_4.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_5.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_6.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_7.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_8.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_9.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_10.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_11.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_12.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_13.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_14.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_15.swf</obj>
+		<obj>_OBJETOS/objetos/objeto_16.swf</obj>
+	</objetos>
+	
+	<baloes>
+		<obj>_OBJETOS/baloes/balao_1.swf</obj>
+		<obj>_OBJETOS/baloes/balao_2.swf</obj>
+		<obj>_OBJETOS/baloes/balao_3.swf</obj>
+		<obj>_OBJETOS/baloes/balao_4.swf</obj>
+		<obj>_OBJETOS/baloes/balao_5.swf</obj>
+		<obj>_OBJETOS/baloes/balao_6.swf</obj>
+		<obj>_OBJETOS/baloes/balao_7.swf</obj>
+		<obj>_OBJETOS/baloes/balao_8.swf</obj>
+		<obj>_OBJETOS/baloes/balao_9.swf</obj>
+		<obj>_OBJETOS/baloes/balao_10.swf</obj>
+		<obj>_OBJETOS/baloes/balao_11.swf</obj>
+		<obj>_OBJETOS/baloes/balao_12.swf</obj>
+		<obj>_OBJETOS/baloes/balao_13.swf</obj>
+		<obj>_OBJETOS/baloes/balao_14.swf</obj>
+	</baloes>
+	
+</conteudo>

@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+margin:0;
+padding:0;
+}
+
+#container{
+	width: 912px;	
+}
+
+#carrossel{
+   width:750px;
+   height:500px;
+   overflow:hidden;
+   margin:0 auto;
+}
+
+#carrossel ul{
+   list-style:none;
+   float:left
+}
+#carrossel ul li{
+   float:left;
+   display:inline;
+   margin-left:4px;
+}
+
+.prev{
+	float: left;
+	margin-left:0px;
+}
+
+.next{	
+	float: right;
+	margin-left:0px;
+}

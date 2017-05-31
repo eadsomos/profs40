@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<result>
+  <game id="2">
+    <image text="jogo de arte - cida\resultado.jpg" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\resultado.jpg" />
+    <sair text="SAIR" color="#000000" />
+    <jogarnovamente text="JOGAR" color="#FFFFFF" />
+    <corretas text="Respostas corretas" color="#000000" />
+    <erradas text="Respostas erradas" color="#000000" />
+    <resultado text="RESULTADO" color="#000000" />
+    <parabens text="" color="#FFFFFF" />
+  </game>
+</result>

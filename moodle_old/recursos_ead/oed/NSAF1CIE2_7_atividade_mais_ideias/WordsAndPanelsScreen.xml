@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<wordsandpanels>
+  <game id="1">
+    <elements id="1" elementType="word">
+      <title text="palavra_01" />
+      <word text="aranha" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\aranha.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\aranha.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\01_aranha.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\01_aranha.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="2" elementType="word">
+      <title text="palavra_02" />
+      <word text="blusa" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\blusa.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\blusa.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\02_blusa.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\02_blusa.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+    <elements id="3" elementType="word">
+      <title text="palavra_03" />
+      <word text="bicicleta" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\bicicleta.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\bicicleta.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\03_bicicleta.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\03_bicicleta.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="4" elementType="word">
+      <title text="palavra_04" />
+      <word text="cachorro" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\cachorro.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\cachorro.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\04_cachorro.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\04_cachorro.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+    <elements id="5" elementType="word">
+      <title text="palavra_05" />
+      <word text="burro" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\burro.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\burro.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\05_burro.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\05_burro.mp3" />
+      <audiocorrect text="audios\parabens.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\parabens.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="6" elementType="word">
+      <title text="palavra_06" />
+      <word text="caixa" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\caixa.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\caixa.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\06_caixa.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\06_caixa.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+    <elements id="7" elementType="word">
+      <title text="palavra_07" />
+      <word text="chafariz" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\chafariz.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\chafariz.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\07_chafariz.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\07_chafariz.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="8" elementType="word">
+      <title text="palavra_08" />
+      <word text="chuva" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\chuva.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\chuva.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\08_chuva.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\08_chuva.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+    <elements id="9" elementType="word">
+      <title text="palavra_09" />
+      <word text="placa" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\placa.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\placa.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\09_placa.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\09_placa.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="10" elementType="word">
+      <title text="palavra_10" />
+      <word text="flor" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\flor.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\flor.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\10_flor.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\10_flor.mp3" />
+      <audiocorrect text="audios\parabens.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\parabens.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+    <elements id="11" elementType="word">
+      <title text="palavra_11" />
+      <word text="vassoura" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\vassoura.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\vassoura.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\11_vassoura.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\11_vassoura.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="12" elementType="word">
+      <title text="palavra_12" />
+      <word text="geladeira" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\geladeira.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\geladeira.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\12_geladeira.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\12_geladeira.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+    <elements id="13" elementType="word">
+      <title text="palavra_13" />
+      <word text="guitarra" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\guitarra.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\guitarra.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\13_guitarra.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\13_guitarra.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="14" elementType="word">
+      <title text="palavra_14" />
+      <word text="lâmpada" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\lampada.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\lampada.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\14_lampada.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\14_lampada.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+    <elements id="15" elementType="word">
+      <title text="palavra_15" />
+      <word text="mágico" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\magica.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\magica.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\15_magico.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\15_magico.mp3" />
+      <audiocorrect text="audios\parabens.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\parabens.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="16" elementType="word">
+      <title text="palavra_16" />
+      <word text="menina" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\menina.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\menina.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\16_menina.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\16_menina.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+    <elements id="17" elementType="word">
+      <title text="palavra_17" />
+      <word text="mochila" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\mochila.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\mochila.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\17_mochila.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\17_mochila.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="18" elementType="word">
+      <title text="palavra_18" />
+      <word text="pássaro" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\passaro.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\passaro.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\18_passaro.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\18_passaro.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+    <elements id="19" elementType="word">
+      <title text="palavra_19" />
+      <word text="pomba" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\pomba.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\pomba.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\19_pomba.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\19_pomba.mp3" />
+      <audiocorrect text="audios\muito_bem.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\muito_bem.mp3" />
+      <audioerror text="audios\ops_tente_de_novo.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\ops_tente_de_novo.mp3" />
+    </elements>
+    <elements id="20" elementType="word">
+      <title text="palavra_20" />
+      <word text="relógio" color="#000000" caps="0" difficulty="1" />
+      <icon text="imgs\relogio.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\imgs\relogio.jpg" />
+      <background text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+      <audio text="audios\20_relogio.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\20_relogio.mp3" />
+      <audiocorrect text="audios\parabens.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\parabens.mp3" />
+      <audioerror text="audios\nao_desista_tente_novamente.mp3" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\audios\nao_desista_tente_novamente.mp3" />
+    </elements>
+  </game>
+</wordsandpanels>

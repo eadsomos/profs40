@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<text name="pergunta"><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1">No segundo parágrafo da notícia, há a seguinte informação: </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"><I>A causa ainda não está esclarecida, mas resultados preliminares indicam que os pássaros morreram por alguma razão física, indicando que as mortes não estavam relacionadas a alguma doença.</I> </FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Tahoma" SIZE="12" COLOR="#666666" LETTERSPACING="0" KERNING="1">Assinale a afirmação correta em relação a ela: </FONT></P></TEXTFORMAT></text> 
+	<text name="alternativaI">O que ainda não se esclareceu foi o motivo de as aves terem caído do céu.</text> 
+	<text name="alternativaII">Alguma doença levou as aves a morrerem.</text> 
+	<text name="alternativaIII">Não se sabe qual o exato motivo de as aves terem morrido.</text> 
+	<text name="alternativaIV">É provável que os pássaros tenham sido atingidos por tiros.</text> 
+	<text name="resposta">3</text> 
+	<text name="feedback" value="images/default_feedback.jpg" /> 
+</root>

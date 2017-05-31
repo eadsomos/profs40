@@ -1,0 +1,8 @@
+{
+"facil" : 120,
+"medio" : 90,
+"dificil" : 100,
+"msgInicial" : "Por causa da destruição do meio ambiente, muitos animais estão em extinção. Conheça alguns deles neste jogo.",
+"msgBoa" : "Parabéns! Você é mesmo muito bom nisso! Você acabou de conhecer dez animais que correm o risco de extinção. O que você faz para evitar que isso aconteça?",
+"msgRuim" :"Continue tentando... Você precisa ser mais rápido para conhecer os animais que estão ameaçados de extinção. Fique atento, pois eles precisam da sua ajuda."
+}

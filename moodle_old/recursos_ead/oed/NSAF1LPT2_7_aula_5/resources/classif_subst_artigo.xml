@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<game title="classif_subst_artigo" path="data" bg="bg_subs_artigos_instrucao.jpg" lang="pt">
+  <instruction bg="bg_subs_artigos_instrucao.jpg" title="Instruções" picture="logo_fake.png" picture2="logo_fake.png"><![CDATA[<p><font face="BlurBold">Objetivo do Jogo:</font> Encontrar as classificações dos substantivos e artigos destacados nas orações.<font face="BlurBold">Como jogar:</font><br /><font face="BlurBold">1)</font> Observe as orações enumeradas e as palavras grifadas que aparecem no quadro e, ao lado, as classificações dos substantivos e artigos.<font face="BlurBold">2)</font> Selecione na lista de classificações <font face="BlurBold">cinco</font> que correspondem às palavras grifadas. Para cada uma das orações são dadas duas classificações, clique em apenas uma.<font face="BlurBold">3)</font> Após selecionar as palavras clique no botão <i>Checar</i> para que o jogo faça a correção. Você ganhará 1 ponto para cada palavra que selecionou corretamente.]]></instruction>
+  <messages>
+    <message id="1"><![CDATA[Bom trabalho!]]></message>
+    <message id="2"><![CDATA[Preste atenção!]]></message>
+    <message id="3"><![CDATA[]]></message>
+  </messages>
+  <screens>
+    <screen name="1">
+      <tip><![CDATA[Indique as classificações dos substantivos e artigos grifados ao lado]]></tip>
+      <words>
+        <word value="(1) substantivo abstrato" correct="true" image="Untitled-5.png"/>
+        <word value="(2) substantivo concreto" correct="true" image="Untitled-6.png"/>
+        <word value="(3) substantivo primitivo" correct="true" image="Untitled-7.png"/>
+        <word value="(4) artigo definido" correct="true" image="Untitled-8.png"/>
+        <word value="(5) artigo indefinido" correct="true" image="Untitled-9.png"/>
+        <word value="(1) substantivo concreto" correct="false"/>
+        <word value="(2) substantivo abstrato" correct="false"/>
+        <word value="(3) substantivo derivado" correct="false"/>
+        <word value="(4) artigo indefinido" correct="false"/>
+        <word value="(5) artigo definido" correct="false"/>
+      </words>
+    </screen>
+    <screen name="2">
+      <tip><![CDATA[Indique as classificações dos substantivos e artigos grifados ao lado]]></tip>
+      <words>
+        <word value="(1) artigo definido" correct="true" image="Untitled-9.png"/>
+        <word value="(2) artigo generalizador" correct="true" image="Untitled-11.png"/>
+        <word value="(3) artigo definido" correct="true" image="Untitled-12.png"/>
+        <word value="(4) artigo indefinido" correct="true" image="Untitled-13.png"/>
+        <word value="(5) artigo indefinido" correct="true" image="Untitled-14.png"/>
+        <word value="(1) artigo indefinido" correct="false"/>
+        <word value="(2) artigo individualizador" correct="false"/>
+        <word value="(3) artigo indefinido" correct="false"/>
+        <word value="(4) artigo definido" correct="false"/>
+        <word value="(5) artigo definido" correct="false"/>
+      </words>
+    </screen>
+    <screen name="3">
+      <tip><![CDATA[Indique as classificações dos substantivos e artigos grifados ao lado]]></tip>
+      <words>
+        <word value="(1) substantivo biforme" correct="true" image="Untitled-14.png"/>
+        <word value="(2) sub. sobrecomum" correct="true" image="Untitled-15.png"/>
+        <word value="(3) substantivo epiceno" correct="true" image="Untitled-16.png"/>
+        <word value="(4) sub. comum de 2 gêneros" correct="true" image="Untitled-17.png"/>
+        <word value="(5) substantivo epiceno" correct="true" image="Untitled-18.png"/>
+        <word value="(1) substantivo uniforme" correct="false"/>
+        <word value="(2) sub. comum de 2 gêneros" correct="false"/>
+        <word value="(3) sub. sobrecomum" correct="false"/>
+        <word value="(4) sub. sobrecomum" correct="false"/>
+        <word value="(5) sub. sobrecomum" correct="false"/>
+      </words>
+    </screen>
+    <screen name="4">
+      <tip><![CDATA[Indique as classificações dos substantivos e artigos grifados ao lado]]></tip>
+      <words>
+        <word value="(1) substantivo primitivo" correct="true" image="Untitled-18.png"/>
+        <word value="(2) substantivo derivado" correct="true" image="Untitled-19.png"/>
+        <word value="(3) substantivo composto" correct="true" image="Untitled-20.png"/>
+        <word value="(4) substantivo derivado" correct="true" image="Untitled-21.png"/>
+        <word value="(5) substantivo composto" correct="true" image="Untitled-22.png"/>
+        <word value="(1) substantivo derivado" correct="false"/>
+        <word value="(2) substantivo primitivo" correct="false"/>
+        <word value="(3) substantivo simples" correct="false"/>
+        <word value="(4) substantivo primitivo" correct="false"/>
+        <word value="(5) substantivo simples" correct="false"/>
+      </words>
+    </screen>
+    <screen name="5">
+      <tip><![CDATA[Indique as classificações dos substantivos e artigos grifados ao lado]]></tip>
+      <words>
+        <word value="(1) artigo indefinido" correct="true" image="Untitled-18.png"/>
+        <word value="(2) artigo definido" correct="true" image="Untitled-19.png"/>
+        <word value="(3) substantivo derivado" correct="true" image="Untitled-20.png"/>
+        <word value="(4) sub. sobrecomum" correct="true" image="Untitled-21.png"/>
+        <word value="(5) substantivo epiceno" correct="true" image="Untitled-22.png"/>
+        <word value="(1) artigo definido" correct="false"/>
+        <word value="(2) artigo indefinido" correct="false"/>
+        <word value="(3) substantivo primitivo" correct="false"/>
+        <word value="(4) substantivo biforme" correct="false"/>
+        <word value="(5) substantivo biforme" correct="false"/>
+      </words>
+    </screen>
+  </screens>
+</game>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/vimeo_libary/db" VERSION="20140724" COMMENT="XMLDB file for Moodle blocks/vimeo_libary"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="assign_vimeo" COMMENT="Info about video submissions on vimeo">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="assign" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" SEQUENCE="false"/>
+        <FIELD NAME="author" TYPE="char" LENGTH="255" NOTNULL="true" DEFAULT="no name" SEQUENCE="false" COMMENT="The one who submitted the file"/>
+        <FIELD NAME="link" TYPE="char" LENGTH="255" NOTNULL="true" DEFAULT="no link" SEQUENCE="false" COMMENT="Link to video on vimeo"/>
+        <FIELD NAME="embed" TYPE="text" LENGTH="1000" NOTNULL="false" SEQUENCE="false" COMMENT="embed iframe to display video"/>
+        <FIELD NAME="studentid" TYPE="int" LENGTH="10" NOTNULL="false" SEQUENCE="false" COMMENT="Student id for grading purposes"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id" COMMENT="The unique id for this submission info."/>
+        <KEY NAME="assign" TYPE="foreign" FIELDS="assign" REFTABLE="assign" REFFIELDS="id" COMMENT="The assign instance this submission relates to"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

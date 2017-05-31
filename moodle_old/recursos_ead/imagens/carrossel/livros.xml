@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<livros>
+   <livro>
+   	<url>http://www.google.com.br</url>
+   	<capa>1.jpg</capa>
+   	<atributos>width="137" height="99" alt="Foto 1"</atributos>   	
+   </livro>
+   <livro>
+   	<url>http://www.google.com.br</url>
+   	<capa>2.jpg</capa>
+   	<atributos>width="137" height="99" alt="Foto 1"</atributos>   	
+   </livro>
+   <livro>
+   	<url>http://www.google.com.br</url>
+   	<capa>3.jpg</capa>
+   	<atributos>width="137" height="99" alt="Foto 1"</atributos>   	   	
+   </livro>
+   <livro>
+   	<url>http://www.google.com.br</url>
+   	<capa>4.jpg</capa>
+   	<atributos>width="137" height="99" alt="Foto 1"</atributos>   	   	
+   </livro>
+   <livro>
+   	<url>http://www.google.com.br</url>
+   	<capa>5.jpg</capa>
+   	<atributos>width="137" height="99" alt="Foto 1"</atributos>   	  	
+   </livro>
+   <livro>
+   	<url>http://www.google.com.br</url>
+   	<capa>6.jpg</capa>
+   	<atributos>width="137" height="99" alt="Foto 1"</atributos>   	   	
+   </livro>
+   <livro>
+   	<url>http://www.google.com.br</url>
+   	<capa>7.jpg</capa>
+   	<atributos>width="137" height="99" alt="Foto 1"</atributos>   	   	
+   </livro>
+</livros>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<textos>
+  <game id="2">
+    <jogo text="Obras de Arte" color="#FFFFFF" />
+    <pontos text="PONTOS" color="#FFFFFF" />
+    <ok text="OK" color="#FFFFFF" />
+    <palavras text="Digite a resposta no campo abaixo:" color="#FFFFFF" />
+    <borda text="#20B2AA" />
+    <novojogo text="INÍCIO DO JOGO" color="#FFFFFF" />
+    <sair text="SAIR" color="#FFFFFF" />
+    <instrucao text="INSTRUÇÕES" color="#000000" />
+  </game>
+</textos>

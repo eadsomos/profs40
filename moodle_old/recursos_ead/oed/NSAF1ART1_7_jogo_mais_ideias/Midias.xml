@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Midias>
+  <game id="2">
+    <midia id="1" type="background" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\instrucoes.jpg" thumb="imagemIcon.gif" />
+    <midia id="2" type="background" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\jogo.jpg" thumb="imagemIcon.gif" />
+    <midia id="3" type="background" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\resultado.jpg" thumb="imagemIcon.gif" />
+    <midia id="4" type="imagem" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\rosas.jpg" thumb="imagemIcon.gif" />
+    <midia id="5" type="imagem" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela2.jpg" thumb="imagemIcon.gif" />
+    <midia id="6" type="imagem" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela3.jpg" thumb="imagemIcon.gif" />
+    <midia id="7" type="imagem" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela4.jpg" thumb="imagemIcon.gif" />
+    <midia id="8" type="imagem" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela5.jpg" thumb="imagemIcon.gif" />
+    <midia id="9" type="imagem" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela6.jpg" thumb="imagemIcon.gif" />
+    <midia id="10" type="imagem" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela7.jpg" thumb="imagemIcon.gif" />
+    <midia id="11" type="imagem" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\tela8.jpg" thumb="imagemIcon.gif" />
+    <midia id="12" type="audio" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\anjo.mp3" thumb="audioIcon.gif" />
+    <midia id="13" type="audio" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\formageometrica.mp3" thumb="audioIcon.gif" />
+    <midia id="14" type="audio" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\formas.mp3" thumb="audioIcon.gif" />
+    <midia id="15" type="audio" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\linhasretas ou curvas.mp3" thumb="audioIcon.gif" />
+    <midia id="16" type="audio" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\miro.mp3" thumb="audioIcon.gif" />
+    <midia id="17" type="audio" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\pablo.mp3" thumb="audioIcon.gif" />
+    <midia id="18" type="audio" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\pintura.mp3" thumb="audioIcon.gif" />
+    <midia id="19" type="audio" path="C:\Documents and Settings\A35379\Desktop\jogo de arte - cida\ÁUDIOS\romero.mp3" thumb="audioIcon.gif" />
+    <midia id="20" type="audio" path="C:\Documents and Settings\A35379\Desktop\acerto\aplausos.mp3" thumb="audioIcon.gif" />
+    <midia id="21" type="audio" path="C:\Documents and Settings\A35379\Desktop\erro\beh-beh.mp3" thumb="audioIcon.gif" />
+  </game>
+</Midias>

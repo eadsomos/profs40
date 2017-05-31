@@ -1,0 +1,552 @@
+<html>
+<head>
+<title>: : Oficina de Cultura Popular : :</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+//inicio script rolagem do texto
+
+function checkBrowser(){
+	this.ver=navigator.appVersion
+	this.dom=document.getElementById?1:0
+	this.ie5=(this.ver.indexOf("MSIE 5")>-1 && this.dom)?1:0;
+	this.ie4=(document.all && !this.dom)?1:0;
+	this.ns5=(this.dom && parseInt(this.ver) >= 5) ?1:0;
+	this.ns4=(document.layers && !this.dom)?1:0;
+	this.bw=(this.ie5 || this.ie4 || this.ns4 || this.ns5)
+	return this
+}
+
+bw=new checkBrowser()
+
+timSpeed=50
+
+contHeight=90
+
+function makeScrollObj(obj,nest){
+	nest=(!nest) ? '':'document.'+nest+'.'										
+	this.el=bw.dom?document.getElementById(obj):bw.ie4?document.all[obj]:bw.ns4?eval(nest+'document.'+obj):0;
+    this.css=bw.dom?document.getElementById(obj).style:bw.ie4?document.all[obj].style:bw.ns4?eval(nest+'document.'+obj):0;		
+	this.height=bw.ns4?this.css.document.height:this.el.offsetHeight
+	this.moveIt=moveIt; this.x; this.y;
+	this.top=b_gettop										
+	return this
+}
+
+function moveIt(x,y){
+	this.x=x;this.y=y
+	this.css.left=this.x
+	this.css.top=this.y
+}
+
+function b_gettop(){
+	var gleft=(bw.ns4 || bw.ns5) ? eval(this.css.top):eval(this.css.pixelTop);
+	return gleft;
+}
+
+var altura=0;
+var scrollTim;
+var active=0;
+
+function scroll(speed){
+	clearTimeout(scrollTim)
+	way=speed>0?1:0
+	if((!way && oScroll[active].top()>-oScroll[active].height+contHeight) || (oScroll[active].top()<0 && way)){
+		oScroll[active].css.top= oScroll[active].top()+speed;
+		scrollTim=setTimeout("scroll("+speed+")",timSpeed)
+	}
+}
+
+function noScroll(){
+	clearTimeout(scrollTim)
+}
+
+function changeActive(num){
+	oScroll[active].css.visibility='hidden'
+	active=num
+	oScroll[active].moveIt(0,0)
+	oScroll[active].css.visibility='visible'
+}
+
+function scrollInit(){
+	oScroll=new Array()
+	oScroll[0]=new	makeScrollObj('divScroll1','divCont')
+		
+	oScroll[0].css.visibility='visible'
+	oControl=new makeScrollObj('divControl')
+	oControl.css.visibility='visible'
+}
+
+//final script rolagem texto
+
+
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_callJS(jsStr) { //v2.0
+  return eval(jsStr)
+}
+
+function move(){
+n = (document.layers) ? 1:0
+ie = (document.all) ? 1:0
+speed = 0
+speed2 = 0
+speed3 = 0
+statdyn = "dynamic"
+started = 0
+started2 = 0
+started3 = 0
+if (n){
+	s1 = document.galeria
+	maxw1 = (s1.clip.width - 96);
+	}
+if (ie){
+	s1 = document.all.galeria.style
+	maxw1 = (s1.pixelWidth - 96);
+	}
+document.onmousemove = mouseMove
+
+if (n) document.captureEvents(Event.MOUSEMOVE)
+}
+
+function mouseMove(e) {
+if (n) {var x=e.pageX; var y=e.pageY}
+if (ie) {var x=event.x; var y=event.y}
+if(x > 0 && x < 800 && y > 190 && y < 286){
+	if (x<123) speed=-16;
+	else if(x<188) speed=-8;
+	else if(x<253) speed=-4;
+	else if(x<328) speed=-2;
+	else if(x<378) speed=-1;
+	else if(x<393) speed=0;
+	else if(x<418) speed=1;
+	else if(x<463) speed=2;
+	else if(x<538) speed=4;
+	else if(x<603) speed=8;
+	else if(x<800) speed=16;
+	if (started == 0) {
+		started = 1
+		slide()
+		}
+	}
+else {
+		speed = 0
+		started = 0
+	}
+
+}
+
+function slide(){
+if(statdyn == "dynamic"){
+	if(parseInt(s1.left) > -16) {
+		s1.left = -16
+		}
+	if(parseInt(s1.left) < - (maxw1 - 690)) {
+		s1.left = - (maxw1 - 690)
+		}
+	s1.left = parseInt(s1.left) - speed
+	}
+if (started != 0) setTimeout("slide()",10)
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function glo()      
+{     
+window.open ("glo.htm", "pop", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,width=520,height=400,top=20,left=100")
+}
+function maturi()      
+{     
+window.open ("glo.htm#maturi", "pop", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,width=520,height=400,top=20,left=100")
+}
+function pedemoleque()      
+{     
+window.open ("glo.htm#pedemoleque", "pop", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,width=520,height=400,top=20,left=100")
+}
+function xilogravura() 
+{     
+window.open ("glo.htm#xilogravura", "pop", "toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,width=520,height=400,top=20,left=100")
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_showHideLayers() { //v6.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+#divControl {
+	LEFT: 665px; POSITION: absolute; TOP: 95px; VISIBILITY: visible; WIDTH: 265px
+}
+#divCont {
+	CLIP: rect(0px 377px 225px 0px);
+	COLOR: #FFFFFF;
+	FONT-FAMILY: verdana;
+	FONT-SIZE: 11px;
+	HEIGHT: 225px;
+	LEFT: 247px;
+	POSITION: absolute;
+	TOP: 125px;
+	WIDTH: 377px;
+	visibility: visible;
+}
+.clScroll {
+	COLOR: #FFFFFF;
+	FONT-FAMILY: 'Verdana', 'arial', 'helvetica', 'sans-serif';
+	FONT-SIZE: 11px;
+	LEFT: 0px;
+	LINE-HEIGHT: 14px;
+	POSITION: absolute;
+	TOP: 0px;
+	text-align: justify;
+}
+
+a {  color: #FFFFFF; text-decoration: none}
+a:hover {  color: #FFFFFF; text-decoration: underline}
+.texto {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: italic; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; text-align: right}
+.textobold { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; text-transform: none; color: #FFCC00}
+.titulo { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-style: normal; line-height: normal; font-weight: bold; font-variant: normal; text-transform: none; color: #FFFFFF; text-align: center}
+.textojustify { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; text-align: justify }
+.textogloss { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; text-decoration: underline}
+.texto1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: italic; line-height: 9pt; font-weight: normal; font-variant: normal; text-transform: none; color: #FFFFFF; text-align: right }
+.numero { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: normal; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #FFCC00}
+.textolayer { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; font-style: italic; line-height: normal; font-weight: normal; font-variant: normal; text-transform: none; color: #000000}
+-->
+</style>
+</head>
+
+<body bgcolor="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('img/receita_over.gif','img/sugestoes_over.gif');MM_callJS('move()');MM_callJS('scrollInit()')" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF">
+<div id="glossario" style="position:absolute; left:9px; top:417px; width:21px; height:15px; z-index:97; visibility: visible;"> 
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr align="center"> 
+      <td><a href="JavaScript:glo()"><font color="#FFCC00" size="1" face="Verdana, Arial, Helvetica, sans-serif"><b>Gloss&aacute;rio</b></font></a></td>
+    </tr>
+  </table>
+</div>
+<div id="num01" style="position:absolute; left:75; top:417; width:590; height:10; z-index:98; visibility: hidden;" class="textolayer"> 
+  <div align="center"><font color="#0000FF">CASCUDO, L. C. Hist&oacute;ria dos 
+    nossos gestos. S&atilde;o Paulo: Melhoramentos, 1976.</font></div>
+</div>
+<div id="num02" style="position:absolute; left:75px; top:417; width:590px; height:10px; z-index:98; visibility: hidden;"> 
+  <div align="center"><font color="#0066FF" size="1" face="Arial, Helvetica, sans-serif"> 
+    Traduzido de: SACHS, C. Hist&oacute;ria universal de la danza. Buenos Aires: 
+    Centuri&oacute;n, s/d.</font></div>
+</div>
+<div id="num03" style="position:absolute; left:75; top:417; width:590; height:10; z-index:98; visibility: hidden;" class="textolayer"> 
+  <div align="center"> <font color="#0000FF">ANDRADE, M. de. Dan&ccedil;as dram&aacute;ticas 
+    do Brasil. S&atilde;o Paulo: Martins, 1959.</font></div>
+</div>
+<div id="num04" style="position:absolute; left:75; top:417; width:590; height:10; z-index:98; visibility: hidden;" class="textolayer"> 
+  <div align="center"> <font color="#0000FF">Ciranda, poesia popular. Pernambuco.</font></div>
+</div>
+<table width="782" border="0" cellspacing="0" cellpadding="0">
+  <tr align="center" bgcolor="#FFCC00"> 
+    <td><img src="img/oficina.gif" width="777" height="74" border="0" usemap="#Map">
+      <map name="Map">
+        <area shape="rect" coords="611,58,698,69" href="#" onClick="MM_openBrWindow('raul.htm','raul','width=600,height=215,left=0,top=0')">
+      </map></td>
+  </tr>
+  <tr align="center" bgcolor="#CC0000"> 
+    <td> 
+      <table border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td>&nbsp;</td>
+          <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','img/receita_over.gif',1)" onClick="MM_openBrWindow('rec.htm','receita','scrollbars=yes,width=520,height=503,left=0,top=0')"><img name="Image5" border="0" src="img/receita.gif" width="152" height="18"></a></td>
+          <td><img src="img/fio2.gif" width="22" height="18"></td>
+          <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','img/sugestoes_over.gif',1)" onClick="MM_openBrWindow('sug.htm','sugestoes','width=501,height=400,left=0,top=0')"><img name="Image7" border="0" src="img/sugestoes.gif" width="108" height="18"></a></td>
+          <td><img src="img/fio3.gif" width="21" height="18"></td>
+          <td><a href="#"><img name="Image9" src="img/arquivo.gif" width="81" height="18" onMouseDown="MM_openBrWindow('../arquivo/arquivo.htm','arquivo','scrollbars=yes,width=520,height=400,left=0,top=0')" border="0"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr align="center"> 
+    <td height="99"><img src="img/titulo.gif" width="763" height="45" border="0"></td>
+  </tr>
+</table>
+<div id="galeria" style="position:absolute; left:-200px; top:190px; width:1356px; height:96px; z-index:5; visibility: visible;"> 
+  <table border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+    <tr> 
+      <td colspan="33" bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+    </tr>
+    <tr> 
+      <td><img src="img/transp.gif" width="100" height="1"></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img01.htm','','width=400,height=355,top=20,left=150')"><img src="img/img01P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img02.htm','02','width=400,height=340,top=20,left=150')"><img src="img/img02P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img03.htm','03','width=400,height=400,top=20,left=150')"><img src="img/img03P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img04.htm','04','width=400,height=325,top=20,left=150')"><img src="img/img04P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img05.htm','05','width=400,height=305,top=20,left=150')"><img src="img/img05P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img06.htm','06','width=265,height=463,top=20,left=150')"><img src="img/img06P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img07.htm','07','width=292,height=449,top=20,left=150')"><img src="img/img07P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img08.htm','08','width=400,height=288,top=20,left=150')"><img src="img/img08P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img09.htm','09','width=386,height=360,top=20,left=150')"><img src="img/img09P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img10.htm','10','width=254,height=424,top=20,left=150')"><img src="img/img10P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img11.htm','11','width=265,height=495,top=20,left=150')"><img src="img/img11P.jpg" width="96" height="96" border="0"></a></td>
+      <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><a href="JavaScript:MM_openBrWindow('img12.htm','12','width=400,height=303,top=20,left=150')"><img src="img/img12P.jpg" width="96" height="96" border="0"></a></td>
+	  <td bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+      <td><img src="img/transp.gif" width="100" height="1"></td>
+    </tr>
+    <tr> 
+      <td colspan="33" bgcolor="#FFFFFF"><img src="img/transp.gif" width="1" height="1"></td>
+    </tr>
+  </table>
+</div>
+<div id="divControl" style="position:absolute; left:664px; top:415px; width:80px; height:15px; z-index:14"> 
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr valign="top"> 
+      <td height="6"><a href="#" 
+      onMouseOut="noScroll()" 
+      onMouseOver="scroll(5)"><img border=0 height=16 name=seta1 
+      src="img/anterior_over.gif" width=50></a></td>
+      <td height="6"><a href="#" 
+      onMouseOut="noScroll()" 
+      onMouseOver="scroll(-5)"><img border=0 height=16 name=seta21 
+      src="img/proxima_over.gif" 
+  width=50></a></td>
+    </tr>
+  </table>
+</div>
+<div id=divCont style="width: 720px; height: 90px; left: 28px; top: 305px; z-index: 15; clip: rect(0px 725 90 0px)"> 
+  <div class=clScroll id=divScroll1 style=""> 
+    <p> O gesto &eacute; anterior &agrave; Palavra. Dedos e bra&ccedil;os falaram 
+      mil&ecirc;nios antes da voz. As &aacute;reas do entendimento m&iacute;mico 
+      s&atilde;o infinitamente superiores &agrave;s da provoca&ccedil;&atilde;o 
+      ao exerc&iacute;cio da oralidade. Sem gestos, a Palavra &eacute; prec&aacute;ria 
+      para o entendimento tem&aacute;tico. Antes das interjei&ccedil;&otilde;es 
+      prim&aacute;rias, a m&atilde;o transmitia a mensagem &uacute;til (...)<sup><a href="JavaScript:" onMouseOver="MM_showHideLayers('num01','','show')" onMouseOut="MM_showHideLayers('num01','','hide')">1</a></sup>.<br>
+      <br>
+      A simbologia da dan&ccedil;a est&aacute; associada aos significados atribu&iacute;dos 
+      aos corpos celestes: o Sol, a Lua e os movimentos das estrelas.<br>
+      <br>
+      As <a href="JavaScript:MM_openBrWindow('img03.htm','03','width=400,height=400,top=20,left=150')" class="textobold">dan&ccedil;as</a> 
+      s&atilde;o formas expressivas de manifestar viv&ecirc;ncias e situa&ccedil;&otilde;es 
+      de indiv&iacute;duos, de grupos, de coletividades. T&ecirc;m, fundamentalmente, 
+      correla&ccedil;&otilde;es com festas, ciclos, festivais agr&aacute;rios, 
+      devo&ccedil;&otilde;es religiosas, compondo ainda diferentes rituais reveladores 
+      de poder, sexualidade, pap&eacute;is sociais de homens, mulheres, crian&ccedil;as, 
+      jovens e velhos, entre outros.<br>
+      <br>
+      Sem d&uacute;vida, h&aacute; um sentido de socializa&ccedil;&atilde;o no 
+      ato de dan&ccedil;ar. H&aacute; um desejo manifesto de dar a cada gesto 
+      um significado, que traduz express&otilde;es de personagens. No &acirc;mbito 
+      religioso, no caso espec&iacute;fico das tradi&ccedil;&otilde;es afro-brasileiras, 
+      h&aacute; uma fus&atilde;o de linguagens (roupas, acess&oacute;rios) com 
+      o teatro. As <a href="JavaScript:MM_openBrWindow('img11.htm','11','width=265,height=495,top=20,left=150')" class="textobold">dan&ccedil;as 
+      </a>executadas publicamente nos terreiros de candombl&eacute;, xang&ocirc;, 
+      mina, batuque narram enredos, hist&oacute;rias, acontecimentos m&iacute;ticos, 
+      relatos sagrados, quase sempre impregnados de moral, de &eacute;tica, de 
+      hierarquia e tamb&eacute;m de f&eacute; religiosa.<br>
+      <br>
+      Dan&ccedil;ar perante um altar, dan&ccedil;ar para comemorar um casamento 
+      ou mesmo em um ritual f&uacute;nebre significa expressar identidades, revelar 
+      sistemas e rela&ccedil;&otilde;es que incluem poder, economia, est&eacute;tica 
+      al&eacute;m de conhecimentos sobre o corpo e principalmente sobre o esp&iacute;rito. 
+      Pois, dan&ccedil;ar &eacute; o pleno encontro entre o corpo e o esp&iacute;rito.<br>
+      <br>
+      <em>A dan&ccedil;a &eacute; a m&atilde;e das artes. A m&uacute;sica e a 
+      poesia existem em um tempo; a pintura e a escultura num espa&ccedil;o. Mas 
+      a dan&ccedil;a vive no tempo e no espa&ccedil;o. O criador e a cria&ccedil;&atilde;o, 
+      o artista e sua obra, seguem sendo uma &uacute;nica coisa. Os desenhos r&iacute;tmicos 
+      do movimento, o sentido pl&aacute;stico do espa&ccedil;o, a representa&ccedil;&atilde;o 
+      animada de um mundo visto e imaginado t&ecirc;m cria&ccedil;&atilde;o no 
+      homem, no seu corpo por meio da dan&ccedil;a. A dan&ccedil;a &eacute; uma 
+      experi&ecirc;ncia anterior ao uso da pedra, da palavra para manifestar suas 
+      experi&ecirc;ncias interiores</em><sup onMouseOver="MM_showHideLayers('num02','','show')" onMouseOut="MM_showHideLayers('num02','','hide')">2</sup>. 
+      </p>
+    <p> <strong>GESTOS URBANOS</strong><br>
+      <br>
+      Viver nas cidades &eacute; participar cotidianamente de in&uacute;meras 
+      coreografias de um verdadeiro bal&eacute; urbano. Sob chuva intensa, o cidad&atilde;o 
+      d&aacute; longos saltos para escapar de po&ccedil;as de &aacute;gua, empunhando 
+      qual <a href="JavaScript:MM_openBrWindow('img10.htm','10','width=254,height=424,top=20,left=150')"><span class="textobold">dan&ccedil;arino 
+      de frevo</span></a> o guarda-chuva mais o equilibra do que protege. Embarca-se 
+      em &ocirc;nibus, trem ou metr&ocirc;, abandona a coreografia individual 
+      para integrar uma dan&ccedil;a sincronizada, da qual participam todos os 
+      passageiros, embalados por chegadas e partidas, pendendo ora para a direita, 
+      ora para a esquerda. Ao desembarcar, vira novamente agitado pedestre, como 
+      muitos outros, que caminha r&aacute;pido e com agilidade para se desviar 
+      dos obst&aacute;culos urbanos &#8211; camel&ocirc;s, barracas, bancas de 
+      jornal e de frutas, postes, latas de lixo. Depois de ficar em compasso de 
+      espera na cal&ccedil;ada atento &agrave; luz do sem&aacute;foro, a luz verde 
+      libera uma avalanche de pedestres que cruza avenidas e volta para as coreografias 
+      das cal&ccedil;adas.<br>
+      <br>
+      Todas as dan&ccedil;as urbanas &#8211; executadas em filas de bancos, feiras, 
+      parques e em est&aacute;dios de futebol &#8211; o homem urbano dan&ccedil;a 
+      coreografia afirmadora de identidades neotribais, recuperando imemorialmente 
+      elos de ancestralidades e de mem&oacute;rias remotas, pr&oacute;prias do 
+      homem.<br>
+      <br>
+      Assim, recorrendo aos repert&oacute;rios do cotidiano e &agrave; cultura 
+      do ver e do entender o corpo, foi criada a base das coreografias tradicionais 
+      e conseq&uuml;entemente das dan&ccedil;as tradicionais: a dan&ccedil;a de 
+      sal&atilde;o das gafieiras, os ritmos afrodescendentes como o maxixe e o 
+      samba, as coreografias milenares dos <a href="JavaScript:MM_openBrWindow('img02.htm','02','width=400,height=340,top=20,left=150')"><span class="textobold">nossos 
+      ind&iacute;genas</span></a>. S&atilde;o formas de manifesta&ccedil;&atilde;o 
+      da dan&ccedil;a brasileira popular e tradicional, ensinada e aprendida nas 
+      festas, no teatro popular, nos sal&otilde;es, nas casas, nas ruas por todos 
+      os brasileiros.</p>
+    <p> <strong>DAN&Ccedil;A, BRASIL</strong><br>
+      <em><br>
+      Uma das manifesta&ccedil;&otilde;es mais caracter&iacute;sticas da m&uacute;sica 
+      popular brasileira s&atilde;o as nossas dan&ccedil;as dram&aacute;ticas. 
+      Nisso o povo brasileiro evolucionou bem sobre as ra&ccedil;as que os originaram 
+      e as outras forma&ccedil;&otilde;es nacionais da Am&eacute;rica. Possu&iacute;mos 
+      um grupo numeroso de bailados, todos eles providos de entrecho dram&aacute;tico, 
+      textos, m&uacute;sicas e dan&ccedil;as pr&oacute;prias (...) o povo brasileiro 
+      &eacute; formado de tr&ecirc;s correntes: portugu&ecirc;s, africano e amer&iacute;ndio, 
+      sempre &eacute; comovente verificar que apenas essas tr&ecirc;s bases &eacute;tnicas 
+      o povo celebra secularmente em suas dan&ccedil;as dram&aacute;ticas</em><sup onMouseOver="MM_showHideLayers('num03','','show')" onMouseOut="MM_showHideLayers('num03','','hide')">3</sup>.<br>
+      <br>
+      A sociedade brasileira funda-se, nostalgicamente, em mitos de cor e ra&ccedil;a. 
+      Funda-se tamb&eacute;m numa sociedade multi&eacute;tnica, um verdadeiro 
+      para&iacute;so de mesti&ccedil;os. Esses mitos criam a linguagem da mistura, 
+      da indistin&ccedil;&atilde;o no ideal de branqueamento e organizam o discurso 
+      da sociedade com um todo, tocando indiv&iacute;duos de todas as classes 
+      e cores.<br>
+      <br>
+      Assim, destaca-se a import&acirc;ncia das etnias, das culturas, das organiza&ccedil;&otilde;es 
+      sociais para se entender o corpo enquanto um meio de express&atilde;o e 
+      de comunica&ccedil;&atilde;o. Famosas s&atilde;o as sambistas, solistas, 
+      cabrochas das escolas de samba, que se destacam no pleno dom&iacute;nio 
+      do corpo no tempo da <a href="JavaScript:MM_openBrWindow('img05.htm','05','width=400,height=305,top=20,left=150')"><span class="textobold">festa 
+      do Carnaval</span></a>. &Eacute; a forma liberta do corpo que celebra publicamente 
+      o reinado de Momo.<br>
+      <br>
+      Situa&ccedil;&atilde;o bastante diferente &eacute; a do devoto que dan&ccedil;a 
+      para S&atilde;o Gon&ccedil;alo no pagamento de uma promessa. Neste caso 
+      o corpo celebra o sagrado e deve executar rigorosamente passos, gestos e 
+      atitudes corporais pr&eacute;-estabelecidas no costume do grupo, em cerimonial, 
+      para cumprir um ato religioso diante do altar do santo.</p>
+    <p><em> <strong>Crit&eacute;rios de classifica&ccedil;&atilde;o das dan&ccedil;as</strong><br>
+      </em><br>
+      As nossas dan&ccedil;as podem ser interpretadas segundo modelos etnoculturais, 
+      ciclos festivos, forma&ccedil;&otilde;es coreogr&aacute;ficas e contextos 
+      espacial.<br>
+      <br>
+      Tendo em vista os modelos etnoculturais, apresentamos dois grandes grupos:</p>
+    <blockquote> 
+      <p> Quadrilha &#8211; Reuni&atilde;o de dan&ccedil;as tradicionais da Europa, 
+        especialmente da Fran&ccedil;a nos s&eacute;culos XVIII e XIX, que deram 
+        origem no Brasil a um repert&oacute;rio de dan&ccedil;as difundidas nacionalmente, 
+        com din&acirc;mica pr&oacute;pria. Assim, al&eacute;m das quadrilhas tradicionalmente 
+        dan&ccedil;adas no Ciclo Junino, temos, entre outras, o forr&oacute; quadrilha, 
+        a quadrilha lambada, ax&eacute; quadrilha, tecno quadrilha, todas manifesta&ccedil;&otilde;es 
+        que inclu&iacute;ram outros ritmos e coreografias contempor&acirc;neas.<br>
+        <br>
+        Coco &#8211; Conjunto de dan&ccedil;as com varia&ccedil;&otilde;es que 
+        incluem marca&ccedil;&atilde;o de p&eacute; e sistemas de comportamento 
+        fortemente ind&iacute;genas, agregando ritmos afrodescendentes e umbigada, 
+        semba, al&eacute;m do samba tradicional. H&aacute; o coco solto, coco 
+        de roda, coco de fileira, coco de umbigada, coco praieiro, coco de parelha, 
+        entre outros.</p>
+    </blockquote>
+    <p> Considerando modelos que seguem os ciclos festivos, destacam-se:</p>
+    <blockquote> 
+      <p> Ciclo carnavalesco &#8211; Uma das dan&ccedil;as caracter&iacute;sticas 
+        desse ciclo &eacute; o passo, o conjunto coreogr&aacute;fico do <a href="JavaScript:MM_openBrWindow('img06.htm','06','width=265,height=463,top=20,left=150')"><span class="textobold">frevo</span></a>. 
+        Coreografias coletivas s&atilde;o executadas nos cabocolinhos, <a href="JavaScript:MM_openBrWindow('img12.htm','12','width=400,height=303,top=20,left=150')"><span class="textobold">maracatu</span></a>, 
+        afox&eacute;, samba enredo, ax&eacute; music.<br>
+        <br>
+        Ciclo junino &#8211; &Eacute; a ocasi&atilde;o em que s&atilde;o executadas 
+        as dan&ccedil;as e varia&ccedil;&otilde;es do boi, bumb&aacute;, <a href="JavaScript:MM_openBrWindow('img09.htm','09','width=386,height=360,top=20,left=150')"><span class="textobold">bumba-meu-boi</span></a>, 
+        <a href="JavaScript:MM_openBrWindow('img01.htm','01','width=400,height=355,top=20,left=150')"> 
+        <span class="textobold">carimb&oacute;</span></a>, cord&otilde;es de p&aacute;ssaros, 
+        quadrilha e varia&ccedil;&otilde;es, jongo, coco.<br>
+        <br>
+        Ciclo natalino &#8211; S&atilde;o executas as dan&ccedil;as que se associam 
+        fortemente ao teatro, caso do pastoril, boi, ternos pastoris, baile pastoril, 
+        guerreiro, reisado.</p>
+    </blockquote>
+    <p> Enquanto modelos que seguem forma&ccedil;&otilde;es coreogr&aacute;ficas, 
+      tem-se:</p>
+    <blockquote> 
+      <p> C&iacute;rculo &#8211; samba-de-roda; coco-de-roda.</p>
+      <p> Fileira &#8211; dan&ccedil;a de S&atilde;o Gon&ccedil;alo, mo&ccedil;ambique, 
+        cateret&ecirc;.</p>
+      <p> De par &#8211; maculel&ecirc;, capoeira, maxixe chimarrita.</p>
+      <p> Solo &#8211; Samba enredo, coco, jongo.</p>
+    </blockquote>
+    <p> <strong>CIRANDAS</strong></p>
+    <blockquote>
+      <p> <em>&#8220;Oh! Cirandeiro<br>
+        Cirandeiro, oh!<br>
+        A pedra do seu anel<br>
+        Brilha mais do que o sol.&#8221;</em><sup onMouseOver="MM_showHideLayers('num04','','show')" onMouseOut="MM_showHideLayers('num04','','hide')">4</sup></p>
+    </blockquote>
+    <p> As dan&ccedil;as de roda, de forma&ccedil;&atilde;o circular, s&atilde;o 
+      t&atilde;o antigas quanto o pr&oacute;prio homem e manifestam, simbolicamente, 
+      o movimento da rota&ccedil;&atilde;o da terra, com in&iacute;cio e fim integrados 
+      na eterna repeti&ccedil;&atilde;o. Traduzem uni&atilde;o, coes&atilde;o, 
+      estabelecendo entre forte sentimento de irmandade, refor&ccedil;ando la&ccedil;os 
+      de parentesco, amizade, socializa&ccedil;&atilde;o, reiterando valores de 
+      pertencimento a um grupo, a uma cultura.<br>
+      <br>
+      A ciranda de Pernambuco, por exemplo, re&uacute;ne adultos e crian&ccedil;as, 
+      sem estabelecimento de qualquer hierarquia que separe ou identifique o participante 
+      da roda. De m&atilde;os dadas, todos formam um &uacute;nico e un&iacute;ssono 
+      grupo. O c&iacute;rculo vai se ampliando com a chegada de um novo membro 
+      que se integra em qualquer lugar da roda. Os passos s&atilde;o muito simples 
+      e marcados. A ciranda vai girando, girando, criando um momento de profunda 
+      solidariedade. Geralmente as coreografias combinam forma&ccedil;&otilde;es 
+      &#8211; em c&iacute;rculo, em par, fileira e solo &#8211; que se alternam.<br>
+      <br>
+      As cirandas s&atilde;o executadas na casa ou na rua. Em fun&ccedil;&atilde;o 
+      do tipo de espa&ccedil;o, s&atilde;o definidos muitos aspectos coreogr&aacute;ficos, 
+      n&uacute;mero de componentes, m&uacute;sicos, acess&oacute;rios, alegorias, 
+      indument&aacute;rias e intera&ccedil;&atilde;o com o p&uacute;blico espectador. 
+      Nas ruas, dan&ccedil;am-se os <a href="JavaScript:MM_openBrWindow('img07.htm','07','width=292,height=449,top=20,left=150')"><span class="textobold">maracatus</span></a>, 
+      afox&eacute;s, escolas de samba, blocos, cortejos, como os das <a href="JavaScript:MM_openBrWindow('img04.htm','04','width=400,height=325,top=20,left=150')"><span class="textobold">congadas</span></a> 
+      e varia&ccedil;&otilde;es, o <a href="JavaScript:MM_openBrWindow('img08.htm','08','width=400,height=288,top=20,left=150')"><span class="textobold">trio-el&eacute;trico</span></a> 
+      e o ax&eacute; music. Nas casas dan&ccedil;am-se o coco de roda, coco de 
+      parelha, baile pastoril, samba-de-roda, entre muitas outras manifesta&ccedil;&otilde;es.</p>
+    </div>
+</div>
+
+</body>
+</html>

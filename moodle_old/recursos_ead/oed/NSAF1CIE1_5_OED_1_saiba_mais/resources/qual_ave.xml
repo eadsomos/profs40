@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game title="qual_ave" path="data" bg="bg_marcha_ok.jpg" lang="pt">
+  <instruction bg="bg_marcha_ok.jpg" title="Qual é a ave?" picture="logo_fake.png" picture2="logo_fake.png"><![CDATA[<p>   Você sabe o que caracteriza uma ave?<p>   Aves são animais que nascem de ovos, se desenvolvem fora do corpo da mãe e têm o corpo coberto de penas.<p>   Agora que você já sabe tudo isso, tente descobrir qual é a ave escondido sob as peças.<p>   Para fazer isso, basta clicar sobre uma peça colorida e observar a parte da silhueta do animal. Depois, clique no animal que corresponde à silhueta que você viu.<p>  Se você acertar, marcará pontos e irá para a próxima tela. Se errar, poderá ir retirando outras peças até revelar a imagem por completo.<p>  Sempre que você retirar uma peça terá uma nova chance para identificar a ave até que seus pontos acabem.<p>  Você sempre ganhará 4 pontos ao iniciar uma nova fase, e para cada peça colorida que você retirar será subtraído 1 ponto. Por isso, quanto menos peças você tirar, mais pontos acumulará durante o jogo.]]></instruction>
+  <cenario titulo="ave1" id="1">
+    <elemento nome="peru" audio="" silhueta="JOG06_i01b_MCCmS.png" imagem="JOG06_i01a_MCCmS.png" x="95.7" y="115.7"/>
+    <elemento nome="pato" audio="" silhueta="JOG06_i02b_MCCmS.png" imagem="JOG06_i02a_MCCmS.png" x="197.7" y="233.7"/>
+    <elemento nome="urubu" audio="" silhueta="JOG06_i04b_MCCmS.png" imagem="JOG06_i04a_MCCmS.png" x="118.7" y="370.7"/>
+    <elemento nome="papagaio" audio="" silhueta="JOG06_i03b_MCCmS.png" imagem="JOG06_i03a_MCCmS.png" x="210.7" y="487.7"/>
+  </cenario>
+  <cenario titulo="ave2" id="2">
+    <elemento nome="arara" audio="" silhueta="JOG06_i05b_MCCmS.png" imagem="JOG06_i05a_MCCmS.png" x="113.7" y="492.7"/>
+    <elemento nome="canário" audio="" silhueta="JOG06_i06b_MCCmS.png" imagem="JOG06_i06a_MCCmS.png" x="116.7" y="117.7"/>
+    <elemento nome="periquito" audio="" silhueta="JOG06_i07b_MCCmS.png" imagem="JOG06_i07a_MCCmS.png" x="182.7" y="235.7"/>
+    <elemento nome="sabiá" audio="" silhueta="JOG06_i08b_MCCmS.png" imagem="JOG06_i08a_MCCmS.png" x="189.7" y="372.7"/>
+  </cenario>
+  <cenario titulo="ave3" id="3">
+    <elemento nome="tucano" audio="" silhueta="JOG06_i09a_MCCmS.png" imagem="JOG06_i09b_MCCmS.png" x="151.65" y="446.7"/>
+    <elemento nome="pato" audio="" silhueta="JOG06_i02b_MCCmS.png" imagem="JOG06_i02a_MCCmS.png" x="216.7" y="311.7"/>
+    <elemento nome="coruja" audio="" silhueta="JOG06_i11b_MCCmS.png" imagem="JOG06_i11a_MCCmS.png" x="95.7" y="205.7"/>
+    <elemento nome="periquito" audio="" silhueta="JOG06_i12b_MCCmS.png" imagem="JOG06_i12a_MCCmS.png" x="215.7" y="115.7"/>
+  </cenario>
+</game>

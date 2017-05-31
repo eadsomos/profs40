@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist>
+	<sons id="0">
+		<musica nroSom= "1"		url="sons/dograve_1-2.mp3"		/>
+		<musica nroSom= "2"		url="sons/re_1-2.mp3"			/>
+		<musica nroSom= "3"		url="sons/mi_1-2.mp3"			/>
+		<musica nroSom= "4"		url="sons/fa_1-2.mp3"			/>
+		<musica nroSom= "5"		url="sons/sol_1-2.mp3"			/>
+		<musica nroSom= "6"		url="sons/la_1-2.mp3"			/>
+		<musica nroSom= "7"		url="sons/si_1-2.mp3"			/>
+		<musica nroSom= "8"		url="sons/doagudo_1-2.mp3"		/>
+		<musica nroSom= "9"		url="sons/dosustenido_1-2.mp3"	/>
+		<musica nroSom= "10"	url="sons/resustenido_1-2.mp3"	/>
+		<musica nroSom= "11"	url="sons/fasustenido_1-2.mp3"	/>
+		<musica nroSom= "12"	url="sons/solsustenido_1-2.mp3"	/>
+		<musica nroSom= "13"	url="sons/lasustenido_1-2.mp3"	/>
+	</sons>
+	<sons id="1">
+		<musica nroSom= "1"		url="sons/dograve_1-2.mp3"		/>
+		<musica nroSom= "2"		url="sons/guitarra.mp3"			/>
+		<musica nroSom= "3"		url="sons/sint.mp3"				/>
+		<musica nroSom= "4"		url="sons/bumbo.mp3"			/>
+		<musica nroSom= "5"		url="sons/trompete.mp3"			/>
+		<musica nroSom= "6"		url="sons/prato.mp3"			/>
+		<musica nroSom= "7"		url="sons/flauta.mp3"			/>
+		<musica nroSom= "8"		url="sons/baixo.mp3"			/>
+		<musica nroSom= "9"		url="sons/dosustenido_1-2.mp3"	/>
+		<musica nroSom= "10"	url="sons/resustenido_1-2.mp3"	/>
+		<musica nroSom= "11"	url="sons/fasustenido_1-2.mp3"	/>
+		<musica nroSom= "12"	url="sons/solsustenido_1-2.mp3"	/>
+		<musica nroSom= "13"	url="sons/lasustenido_1-2.mp3"	/>
+	</sons>
+</playlist>
+
+	
+

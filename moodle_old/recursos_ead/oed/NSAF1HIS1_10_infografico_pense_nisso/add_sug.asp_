@@ -1,0 +1,42 @@
+<%@ Language=VBScript %>
+<%
+x = true
+
+function ValidaCampo(campo)
+	ValidaCampo = true
+	if len(trim(campo)) = "" or campo = "-" then ValidaCampo = false
+end function
+
+for each campo in Request.Form
+	if left(campo, 3) = "txt" _
+	or left(campo, 3) = "txa" _
+	or left(campo, 3) = "cmb" then
+		x = ValidaCampo(Request.Form(campo))
+		if x = false then exit for
+	end if
+next
+
+if x = false then Response.Redirect("erro.htm")
+
+'-- FORM Oficina de Cultura Popular - Sugestões
+Body = "Nome: " & Request.Form("txtNome") & vbNewLine _
+     & "E-mail: " & Request.Form("txtMail") & vbNewLine _
+     & "Idade: " & Request.Form("txtIdade") & vbNewLine _
+     & "Escola: " & Request.Form("txtEscola") & vbNewLine _
+     & "Endereço: " & Request.Form("txtEndereco") & vbNewLine _
+     & "Cidade: " & Request.Form("txtCidade") & " - " & Request.Form("cmbUF") & vbNewLine _
+     & "CEP: " & Request.Form("txtCEP") & " - Telefone: " & Request.Form("txtFone") & vbNewLine & vbNewLine _
+     & "Sugestão: " & vbNewLine & Request.Form("txaSugestao")
+
+set sendMail = Server.CreateObject("CDONTS.Newmail")
+
+sendMail.From = trim(Request.Form("txtMail"))
+sendMail.To = "mario.scipione@uol.com.br"
+sendMail.Subject = "Scipione Interativa - Oficina de Cultura Popular"
+sendMail.Body = Body
+sendMail.Send
+	
+set sendMail = nothing
+
+Response.Redirect("agradece.htm")
+%>

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.corpo{
+	width: 760px;
+	height: 191px;
+	overflow:hidden;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	border-bottom:dotted 1px #999999;
+}
+div.img{
+	float:left;	
+}
+div.titulo{
+	float:left;
+	width:450px;
+	margin:10px 10px 10px 10px;
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#09885c;
+}
+div.subTitulo{
+	float:left;
+	width:440px;
+	margin:2px 10px 10px 10px;
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#666666;
+}
+div.texto{
+	float:left;
+	width:460px;
+	margin:2px 10px 10px 10px;
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+}
+div.btn{
+	float:right;
+	width:118px;
+	height:25px;
+	margin: 2px 20px 10px 10px;
+	background-color:#09885c;
+	display:table;
+	vertical-align:middle;
+	cursor:pointer;
+}
+div.label{
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	text-align:center;
+	color:#FFF;
+	display: table-cell;
+	vertical-align: middle;
+}
+div.curtir{
+	float:left;
+	width:300px;
+	margin:2px 10px 10px 10px;
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#666666;
+}

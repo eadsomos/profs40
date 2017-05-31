@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<local>
+
+	<serverURL>quizzes/show_all_hierarchy/</serverURL>
+
+	<imagesURL>imgs/</imagesURL>
+
+	<envioJsonURL>questions/earn_points</envioJsonURL>
+
+	<direcionaURL>earn_points/result</direcionaURL>
+
+	<completURL>images/</completURL>
+
+</local>

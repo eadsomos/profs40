@@ -1,0 +1,32 @@
+// Post SCSS for the theme.
+
+body.pagelayout-login {
+    background-image: url([[pix:theme_thoth|loginbackgroundimage]]);
+    background-size: cover;
+}
+body.pagelayout-frontpage {
+    background-image: url([[pix:theme_thoth|frontpagebackgroundimage]]);
+    background-size: cover;
+}
+body.pagelayout-mydashboard {
+    background-image: url([[pix:theme_thoth|dashboardbackgroundimage]]);
+    background-size: cover;
+}
+body.pagelayout-course,
+body.pagelayout-incourse {
+    background-image: url([[pix:theme_thoth|incoursebackgroundimage]]);
+    background-size: cover;
+}
+body.pagelayout-embedded,
+body.pagelayout-popup,
+body.pagelayout-secure,
+body.pagelayout-print {
+    background-image: none;
+}
+body {
+    background-image: url([[pix:theme_thoth|defaultbackgroundimage]]);
+    background-size: cover;
+}
+.bg-gray{
+    background-color: blue;
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root appversion="1.6.014">
+ 	<activity name="layout" order="0" file="data/layout_3.xml" />
+ 	<activity name="Texto" order="1" file="data/telaDeTexto_7.xml" />
+ 	<activity name="Classifique o Texto" order="2" file="data/classifiqueTexto_9.xml" />
+ 	<activity name="Multiplas Escolhas" order="3" file="data/multiplasEscolhasT1_12.xml" />
+ 	<activity name="Multiplas Escolhas" order="4" file="data/multiplasEscolhasT1_14.xml" />
+ 	<activity name="Multiplas Escolhas" order="5" file="data/multiplasEscolhasT1_16.xml" />
+ 	<activity name="Multiplas Escolhas" order="6" file="data/multiplasEscolhasT1_18.xml" />
+</root>

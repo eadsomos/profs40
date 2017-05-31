@@ -1,0 +1,4 @@
+<helloproject>
+  <engine>wordPuzzle</engine>
+  <xml>resources/caca_palavras.xml</xml>
+</helloproject>

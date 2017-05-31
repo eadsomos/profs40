@@ -1,0 +1,364 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nisarg\n"
+"POT-Creation-Date: 2017-05-16 11:43-0300\n"
+"PO-Revision-Date: 2017-05-16 12:26-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_nx;_x;esc_html_x;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Essa página não pode ser encontrada... "
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Parece que nada foi encontrado neste local. Talvez tente um dos links abaixo "
+"ou uma pesquisa?"
+
+#: archive.php:15
+msgid "Browsed by"
+msgstr "Navegados por"
+
+#: comments.php:26
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "Um pensamento sobre &ldquo;%2$s&rdquo;"
+
+#: comments.php:44
+msgid "Comment navigation"
+msgstr "Navegação de comentários"
+
+#: comments.php:47
+msgid "Older Comments"
+msgstr "Comentários mais antigos"
+
+#: comments.php:51
+msgid "Newer Comments"
+msgstr "Comentários mais recentes"
+
+#: comments.php:60 single.php:29
+msgid "Comments are closed."
+msgstr "Comentários estão fechados."
+
+#: footer.php:16
+msgid "Proudly Powered by "
+msgstr "Orgulhosamente alimentado por"
+
+#: footer.php:17
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:21
+#, php-format
+msgid "Theme: %1$s"
+msgstr "Tema:%1$s"
+
+#: functions.php:55
+msgid "Top Primary Menu"
+msgstr "Menu principal principal"
+
+#: functions.php:113
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#: functions.php:140
+msgid "expand child menu"
+msgstr "Expandir menu"
+
+#: functions.php:141
+msgid "collapse child menu"
+msgstr "Recolher menu"
+
+#: functions.php:192 template-parts/content-aside.php:24
+#: template-parts/content-gallery.php:30 template-parts/content-link.php:29
+#: template-parts/content-quote.php:31 template-parts/content-status.php:19
+#: template-parts/content.php:38
+msgid " Read More"
+msgstr "Continue lendo..."
+
+#: image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s"
+"\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"Publicado <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> em <a href=\"%6$s\" title=\"Return to %7$s"
+"\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:33 image.php:96 template-parts/content-page.php:33
+msgid "Edit"
+msgstr "Editar"
+
+#: image.php:36
+msgid "&larr; Previous"
+msgstr "& Larr; Anterior"
+
+#: image.php:37
+msgid "Next &rarr;"
+msgstr "Próximo & rarr;"
+
+#: image.php:82 template-parts/content-aside.php:27
+#: template-parts/content-gallery.php:33 template-parts/content-link.php:32
+#: template-parts/content-page.php:26 template-parts/content-quote.php:34
+#: template-parts/content-status.php:22 template-parts/content.php:43
+msgid "Pages:"
+msgstr "Páginas"
+
+#: image.php:88
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Envie "
+"um comentário</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s"
+"\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:90
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+
+#: image.php:92
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+"Os trackbacks estão fechados, mas você pode <a class=\"comment-link\" href="
+"\"#respond\" title=\"Post a comment\"> postar um comentário </a>."
+
+#: image.php:94
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Ambos os comentários e trackbacks estão atualmente fechados."
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Procurar resultados para:% s"
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr "Procurar por:"
+
+#: searchform.php:14
+msgid "Search"
+msgstr "Procurar"
+
+#: sidebar.php:15
+msgid "Archives"
+msgstr "Arquivos"
+
+#: sidebar.php:21
+msgid "Meta"
+msgstr "Meta"
+
+#: inc/back-compat.php:28 inc/back-compat.php:37 inc/back-compat.php:49
+#, php-format
+msgid ""
+"Nisarg requires at least WordPress version 4.7.1. You are running version "
+"%s. Please upgrade and try again."
+msgstr ""
+"Nisarg requer pelo menos WordPress versão 4.7.1. Você está executando a "
+"versão% s. Atualize e tente novamente."
+
+#: inc/custom-header.php:34 inc/custom-header.php:49
+msgid "food"
+msgstr "Alimentado"
+
+#: inc/custom-header.php:39
+msgid "buildings"
+msgstr "edificios"
+
+#: inc/custom-header.php:44
+msgid "Wood"
+msgstr "Madeira"
+
+#: inc/customizer.php:32
+msgid "Header Background Color"
+msgstr "Cor de fundo do cabeçalho"
+
+#: inc/customizer.php:33
+msgid "Applied to header background."
+msgstr "Aplicado ao fundo do cabeçalho."
+
+#: inc/customizer.php:42 inc/customizer.php:71
+msgid "Accent Color"
+msgstr "Cor do destaque"
+
+#: inc/customizer.php:55
+msgid "Accent Color Name"
+msgstr "Nome da cor do destaque"
+
+#: inc/customizer.php:72
+msgid "Applied to highlight elements."
+msgstr "Aplicado para destacar elementos."
+
+#: inc/customizer.php:81
+msgid "Post Options"
+msgstr "Opções de post"
+
+#: inc/customizer.php:93
+msgid "How would you like to dipaly a post on post listing page?"
+msgstr "Como você gostaria de exibir um post na página de posts?"
+
+#: inc/customizer.php:98
+msgid "Post excerpt"
+msgstr "Trecho do post"
+
+#: inc/customizer.php:99
+msgid "Full post"
+msgstr "Post completo"
+
+#: inc/customizer.php:114
+msgid "Default"
+msgstr "Padrão"
+
+#: inc/customizer.php:120
+msgid "Pink"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Orange"
+msgstr ""
+
+#: inc/customizer.php:132
+msgid "Green"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Red"
+msgstr ""
+
+#: inc/customizer.php:144
+msgid "yellow"
+msgstr ""
+
+#: inc/customizer.php:150
+msgid "Blue"
+msgstr ""
+
+#: inc/template-tags.php:24
+msgid "Posts navigation"
+msgstr "Navegação de postagens"
+
+#: inc/template-tags.php:31
+msgid "NEWER POSTS"
+msgstr "POSTS MAIS NOVOS"
+
+#: inc/template-tags.php:41
+msgid "OLDER POST"
+msgstr "POSTS ANTIGOS"
+
+#: inc/template-tags.php:71
+msgid "Post navigation"
+msgstr "Navegação"
+
+#: inc/template-tags.php:82
+msgid " NEXT"
+msgstr "PRÓXIMO"
+
+#: inc/template-tags.php:82
+msgid "Next Post"
+msgstr "Próximo Post"
+
+#: inc/template-tags.php:98
+msgid "PREVIOUS "
+msgstr "ANTERIOR"
+
+#: inc/template-tags.php:99
+msgid "Previous Post"
+msgstr "Post Anterior"
+
+#: inc/template-tags.php:121
+msgid "View all posts by"
+msgstr "Ver todos os posts de"
+
+#: inc/template-tags.php:138
+msgid "Comments"
+msgstr "Comentários"
+
+#: inc/template-tags.php:139
+msgid "0 Comment"
+msgstr "0 Comentário"
+
+#: inc/template-tags.php:139
+msgid "1 comment"
+msgstr "1 comentário"
+
+#: inc/template-tags.php:139
+#, php-format
+msgid "% comments"
+msgstr "% comentários"
+
+#: inc/template-tags.php:157 inc/template-tags.php:168
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:161
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:170
+#, php-format
+msgid " %1$s"
+msgstr "%1$s"
+
+#: inc/template-tags.php:177
+msgid "Edit This Post"
+msgstr "Edite este post"
+
+#: template-parts/content-excerpt.php:14 template-parts/content.php:14
+msgid "Featured"
+msgstr "Destaque"
+
+#: template-parts/content-none.php:13 template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nada foi encontrado"
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Pronto para publicar seu primeiro post? <a href=\"%1$s\"> Comece aqui </a>."
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Desculpe, mas nada correspondeu aos termos de pesquisa. Por favor, tente "
+"novamente com algumas palavras-chave diferentes."
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que não podemos encontrar o que você está procurando. Talvez a busca "
+"possa ajudar."

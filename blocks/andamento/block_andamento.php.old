@@ -1,0 +1,99 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Newblock block caps.
+ *
+ * @package    block_andamento
+ * @copyright  Daniel Neis <danielneis@gmail.com>
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+class block_andamento extends block_base {
+    function init() {
+        $this->title = get_string('pluginname', 'block_andamento');
+    }
+
+    function get_content() {
+		global $USER, $COURSE, $DB, $CFG, $OUTPUT, $PAGE;
+
+		//Procura na base pelo andamento de conclusão
+		$table1 = $CFG->prefix.'course_modules';
+		$table2 = 'course_modules_completion';
+		$where2 = 'userid = '.$USER->id.' AND completionstate > 0 AND coursemoduleid IN (SELECT id FROM '.$table1.' WHERE course = '.$COURSE->id.')';
+		$completions = $DB->count_records_select($table2, $where2);
+		$table3 = 'course_modules';
+		$where3 = 'course = '.$COURSE->id.' AND completion > 0';
+		$totalcompletions = $DB->count_records_select($table3, $where3);
+		$percentagecompletions = 0;
+		$porcentagemredonda = 0;
+		
+        if ($this->content !== null) {
+            return $this->content;
+        }
+
+        if (empty($this->instance)) {
+            $this->content = '';
+            return $this->content;
+        }
+		
+		//se o andamento for maior que 0, faz a conta de porcentagem
+		if ($totalcompletions > 0) {
+			$percentagecompletions = $completions/$totalcompletions*100;
+			$porcentagemredonda = number_format((float)$percentagecompletions, 0, '.', '');
+		}
+		
+		if ($porcentagemredonda <= 40){
+			$classecor = "inicio";
+		}elseif ($porcentagemredonda > 40 && $porcentagemredonda <= 80){
+			$classecor = "meio";
+		}else{
+			$classecor = "concluido";
+			}
+
+        $this->content = new stdClass();
+		$this->content->text = html_writer::tag('div','', array('id' => 'orangecircle', 'class' => 'small '.$classecor.' percircle animate','data-percent' => $porcentagemredonda));
+		$this->content->text .= html_writer::div('Andamento do Curso', 'legenda-andamento');
+        
+
+        // user/index.php expect course context, so get one if page has module context.
+        $currentcontext = $this->page->context->get_course_context(true);
+		$PAGE->requires->js(new moodle_url($CFG->wwwroot.'/blocks/andamento/js/acao.js'));
+		
+        return $this->content;
+    }
+
+    // my moodle can only have SITEID and it's redundant here, so take it away
+    public function applicable_formats() {
+        return array('all' => false,
+                     'site' => false,
+                     'site-index' => false,
+                     'course-view' => true, 
+                     'course-view-social' => true,
+                     'mod' => true, 
+                     'mod-quiz' => true);
+    }
+
+    public function instance_allow_multiple() {
+          return true;
+    }
+
+    function has_config() {return true;}
+	
+	
+}

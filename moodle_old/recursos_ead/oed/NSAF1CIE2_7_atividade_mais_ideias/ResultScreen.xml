@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<result>
+  <game id="1">
+    <image text="fundos\backDefaultSplash_a.jpg" path="E:\Projetos\Projetos_2012\MERCADO\AGORA EU SEI\Ditado\fundos\backDefaultSplash_a.jpg" />
+    <sair text="SAIR" color="#FFFFFF" />
+    <jogarnovamente text="REINICIAR" color="#FFFFFF" />
+    <corretas text="REPOSTAS CORRETAS:" color="#FFFFFF" />
+    <erradas text="RESPOSTAS ERRADAS:" color="#FFFFFF" />
+    <resultado text="RESULTADO" color="#000000" />
+    <parabens text="PARABÉNS!" color="#A34570" />
+  </game>
+</result>

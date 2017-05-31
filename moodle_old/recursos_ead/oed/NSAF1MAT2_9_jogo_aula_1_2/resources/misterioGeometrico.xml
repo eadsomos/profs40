@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<game path="misterioGeometrico" color="8FFFBC" pontosPorCena="4">
+	
+	<instruction title="Instruções" picture="logo_cidade.png" picture2="logo_abril.png">
+		<![CDATA[<p><font face="BlurBold">OBJETIVO DO JOGO:</font> Identificar a forma ou sólido geométrico escondido sob as peças.<br><br><font face="BlurBold">COMO JOGAR:</font><br><br><font face="BlurBold">1)</font> Você começará o jogo com 4 pontos. Clique sobre uma peça colorida para removê-la e observe a parte da silhueta que será exibida.<br><br><font face="BlurBold">2)</font> Escolha entre as imagens à esquerda aquela que corresponde à silhueta e clique sobre ela. Se você acertar, parabéns! Ganhará o jogo sem ter perdido nenhum ponto. Se errar, poderá ir tirando outras peças até revelar a imagem por completo. Mas atenção! Sempre que você retirar uma peça perderá um ponto. Por isso, quanto menos peças você tirar mais pontos terá no final do jogo.<br><br>Está preparado? Então observe a silhueta e desvende esse mistério geométrico!</p>]]>
+	</instruction>
+	
+	<options>
+		<difficulty enabled="true"/>
+	</options>
+	
+	<cenario id="1" titulo="FÁCIL" difficulty="1">
+		<elemento nome="Quadrado" audio="" silhueta="quadrado_g.png" imagem="quadrado_p.png" x="111" y="251" />
+		<elemento nome="Retângulo" audio="" silhueta="retangulo_g.png" imagem="retangulo_p.png" x="176" y="471" />
+		<elemento nome="Triângulo" audio="" silhueta="triangulo_g.png" imagem="triangulo_p.png" x="195" y="324" />
+		<elemento nome="Círculo" audio="" silhueta="circulo_g.png" imagem="circulo_p.png" x="98" y="104" />
+		<elemento nome="Pentágono" audio="" silhueta="pentagono_g.png" imagem="pentagono_p.png" x="88" y="381" fake="true" />
+		<elemento nome="Cone" audio="" silhueta="cone_g.png" imagem="cone_p.png" x="184" y="169" fake="true" />
+	</cenario>
+	
+	<cenario id="2" titulo="MÉDIO" difficulty="2">
+		<elemento nome="Pirâmide" audio="" silhueta="piramide_g.png" imagem="piramide_p.png" x="163" y="311" />
+		<elemento nome="Cubo" audio="" silhueta="cubo_g.png" imagem="cubo_p.png" x="164" y="182" />
+		<elemento nome="Paralelepípedo" audio="" silhueta="paralelepipedo_g.png" imagem="paralelepipedo_p.png" x="107" y="106" />
+		<elemento nome="Cone" audio="" silhueta="cone_g.png" imagem="cone_p.png" x="82" y="249" />
+		<elemento nome="Prisma de base triangular" audio="" silhueta="prisma_bt_g.png" imagem="prisma_bt_p.png" x="96" y="397" fake="true" />
+		<elemento nome="Cilindro" audio="" silhueta="cilindro_g.png" imagem="cilindro_p.png" x="172" y="458" fake="true" />
+	</cenario>
+	
+	<cenario id="3" titulo="DIFÍCIL" difficulty="3">
+		<elemento nome="Octaedro" audio="" silhueta="octaedro_g.png" imagem="octaedro_p.png" x="172" y="458" />
+		<elemento nome="Cilindro" audio="" silhueta="cilindro_g.png" imagem="cilindro_p.png" x="168" y="306" />
+		<elemento nome="Pirâmide de base pentagonal" audio="" silhueta="piramide_bp_g.png" imagem="piramide_bp_p.png" x="93" y="115" />
+		<elemento nome="Prisma de base pentagonal" audio="" silhueta="prisma_bp_g.png" imagem="prisma_bp_p.png" x="174" y="176" />
+		<elemento nome="Esfera" audio="" silhueta="esfera_g.png" imagem="esfera_p.png" x="93" y="251" fake="true" />
+		<elemento nome="Cone" audio="" silhueta="cone_g.png" imagem="cone_p.png" x="93" y="395" fake="true" />
+	</cenario>
+	
+</game>
+
+
+DIFÍCIL	- Octaedro
+- Cilindro
+- Pirâmide de base pentagonal
+- Prisma de base pentagonal	- Esfera
+- Cone

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game title="caca_palavras" path="data" bg="bg_marcha_ok.jpg" lang="pt">
+  <instruction bg="bg_marcha_ok.jpg" title="Caça indígena" picture="logo_fake.png" picture2="logo_fake.png"><![CDATA[<p>   Observe as fotos e procure no diagrama as palavras relacionadas. <p>   Para marcar uma palavra, basta posicionar o ponteiro do mouse na primeira letra e arrastá-lo até a última.<p>   Para vencer o jogo, você precisa caçar todas as palavras!]]></instruction>
+  <puzzles>
+    <puzzle title="instrumentos">
+      <word value="chocalho" picture="JOG03_f01_ MCPmS.jpg"/>
+      <word value="flauta" picture="JOG03_f02_ MCPmS.jpg"/>
+      <word value="tambor" picture="JOG03_f03_ MCPmS.jpg"/>
+    </puzzle>
+    <puzzle title="enfeites">
+      <word value="cocar" picture="JOG03_f04_ MCPmS.jpg"/>
+      <word value="colar" picture="JOG03_f05_ MCPmS.jpg"/>
+      <word value="cinto" picture="JOG03_f06_ MCPmS.jpg"/>
+      <word value="braçadeira" picture="JOG03_f07_ MCPmS.jpg"/>
+    </puzzle>
+    <puzzle title="artesanatos">
+      <word value="cesta" picture="JOG03_f08_ MCPmS.jpg"/>
+      <word value="remo" picture="JOG03_f09a_ MCPmS.jpg"/>
+      <word value="cerâmica" picture="JOG03_f11_ MCPmS.jpg"/>
+    </puzzle>
+    <puzzle title="alimentos">
+      <word value="caju" picture="JOG03_f23_ MCPmS.jpg"/>
+      <word value="cacau" picture="JOG03_f22_ MCPmS.jpg"/>
+      <word value="guaraná" picture="JOG03_f21_ MCPmS.jpg"/>
+      <word value="milho" picture="JOG03_f20_ MCPmS.jpg"/>
+      <word value="palmito" picture="JOG03_f19_ MCPmS.jpg"/>
+      <word value="maracujá" picture="JOG03_f18_ MCPmS.jpg"/>
+      <word value="mandioca" picture="JOG03_f17_ MCPmS.jpg"/>
+    </puzzle>
+    <puzzle title="armas">
+      <word value="flecha" picture="JOG03_f13_ MCPmS.jpg"/>
+      <word value="lança" picture="JOG03_f14_ MCPmS.jpg"/>
+      <word value="martelo" picture="JOG03_f16a_ MCPmS.jpg"/>
+      <word value="zarabatana" picture="JOG03_f16b_ MCPmS.jpg"/>
+    </puzzle>
+  </puzzles>
+</game>
